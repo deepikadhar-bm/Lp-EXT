@@ -1,0 +1,26 @@
+{
+  "name": "ext-web-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests converted from Testsigma - EXT Application (Web)",
+  "scripts": {
+    "test": "npx playwright test",
+    "convert": "node conversion/pipeline.js ext-web"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "xlsx": "^0.18.5"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

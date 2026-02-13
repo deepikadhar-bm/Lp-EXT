@@ -1,0 +1,4680 @@
+{
+  "project": "EXT Application (Web)",
+  "timestamp": "2026-02-11T22:06:12.784Z",
+  "duration": "0.5s",
+  "summary": {
+    "testCasesTotal": 429,
+    "testCasesGenerated": 496,
+    "testCasesSkipped": 0,
+    "pageObjects": 44,
+    "stepGroups": 306,
+    "elementsTotal": 2232,
+    "testSuites": 54
+  },
+  "confidence": {
+    "high": 258,
+    "medium": 213,
+    "low": 25
+  },
+  "nlpParserStats": {
+    "high": 10411,
+    "medium": 738,
+    "low": 179,
+    "unknown": 366,
+    "handlerCount": 104,
+    "kibbutzHandlerCount": 108
+  },
+  "todoCount": 414,
+  "warningCount": 172,
+  "stepGroupWarnings": 302,
+  "testFiles": [
+    {
+      "file": "tests/ext-web/-suite-config---standard-uiquick-pricer/pre-cond-config---custom-ui-disabledquick-pricer-352.spec.ts",
+      "testCase": "Pre-cond: Config - Custom UI Disabled[Quick Pricer]",
+      "testCaseId": 352,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-verify-loan-type-loan-purpose-occupancy-etc-573.spec.ts",
+      "testCase": "REG TC: Verify Loan Type, Loan purpose, Occupancy etc",
+      "testCaseId": 573,
+      "steps": 30,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-subordinate-loan-2nd-loan-pricing-500.spec.ts",
+      "testCase": "REG TC: Subordinate Loan (2nd loan) Pricing",
+      "testCaseId": 500,
+      "steps": 35,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-days-lock--482.spec.ts",
+      "testCase": "REG TC: Days Lock ",
+      "testCaseId": 482,
+      "steps": 22,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-terms--496.spec.ts",
+      "testCase": "REG TC: Terms ",
+      "testCaseId": 496,
+      "steps": 24,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-verify-pricing-adjustments-515.spec.ts",
+      "testCase": "REG TC: Verify Pricing Adjustments",
+      "testCaseId": 515,
+      "steps": 25,
+      "confidence": "medium",
+      "warningCount": 6,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-verify-comp-plan-502.spec.ts",
+      "testCase": "REG TC: Verify Comp Plan",
+      "testCaseId": 502,
+      "steps": 11,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-verify-price-points-504.spec.ts",
+      "testCase": "REG TC: Verify Price (Points)",
+      "testCaseId": 504,
+      "steps": 29,
+      "confidence": "medium",
+      "warningCount": 7,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-verify-closing-cost-545.spec.ts",
+      "testCase": "REG TC: Verify Closing Cost",
+      "testCaseId": 545,
+      "steps": 96,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-fha-loans-506.spec.ts",
+      "testCase": "REG TC: FHA Loans",
+      "testCaseId": 506,
+      "steps": 58,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-va-loans-523.spec.ts",
+      "testCase": "REG TC: VA Loans",
+      "testCaseId": 523,
+      "steps": 68,
+      "confidence": "medium",
+      "warningCount": 8,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-usda-loans-539.spec.ts",
+      "testCase": "REG TC: USDA Loans",
+      "testCaseId": 539,
+      "steps": 58,
+      "confidence": "high",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-verify-fee-553.spec.ts",
+      "testCase": "REG TC: Verify Fee",
+      "testCaseId": 553,
+      "steps": 67,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-impersonation-555.spec.ts",
+      "testCase": "REG TC: Impersonation",
+      "testCaseId": 555,
+      "steps": 37,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-product-finder-560.spec.ts",
+      "testCase": "REG TC: Product Finder",
+      "testCaseId": 560,
+      "steps": 24,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-ami-information-562.spec.ts",
+      "testCase": "REG TC: AMI Information",
+      "testCaseId": 562,
+      "steps": 17,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-zip-code-564.spec.ts",
+      "testCase": "REG TC: Zip Code",
+      "testCaseId": 564,
+      "steps": 38,
+      "confidence": "medium",
+      "warningCount": 6,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/ext-reg-pricing-a-loan-in-loan-pricer/reg-tc-aus-567.spec.ts",
+      "testCase": "REG TC: AUS",
+      "testCaseId": 567,
+      "steps": 52,
+      "confidence": "medium",
+      "warningCount": 10,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-request-lock-as-lo-individual--519.spec.ts",
+      "testCase": "TC: Verify Request Lock as LO [ Individual ]",
+      "testCaseId": 519,
+      "steps": 60,
+      "confidence": "high",
+      "warningCount": 7,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-lock-the-loan-as-ld-individual--517.spec.ts",
+      "testCase": "TC: Verify Lock the loan as LD [ Individual ]",
+      "testCaseId": 517,
+      "steps": 40,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-loan-extension-as-lo-individual--513.spec.ts",
+      "testCase": "TC: Verify Loan Extension as LO [ Individual ]",
+      "testCaseId": 513,
+      "steps": 54,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-accept-loan-extension-as-ld-individual--521.spec.ts",
+      "testCase": "TC: Verify Accept Loan Extension as LD [ Individual ]",
+      "testCaseId": 521,
+      "steps": 49,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-request-loan-concession-as-lo-individual--525.spec.ts",
+      "testCase": "TC: Verify Request Loan Concession as LO [ Individual ]",
+      "testCaseId": 525,
+      "steps": 60,
+      "confidence": "high",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-accept-loan-concession-as-ld-individual--527.spec.ts",
+      "testCase": "TC: Verify Accept Loan Concession as LD [ Individual ]",
+      "testCaseId": 527,
+      "steps": 44,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-reprice-the-loan-as-lo-individual--529.spec.ts",
+      "testCase": "TC: Verify Reprice the loan as  LO [ Individual ]",
+      "testCaseId": 529,
+      "steps": 69,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-accept-reprice-the-loan-as-ld-individual--531.spec.ts",
+      "testCase": "TC: Verify Accept Reprice the loan as  LD [ Individual ]",
+      "testCaseId": 531,
+      "steps": 47,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-cancel-the-loan-as-ld-individual--533.spec.ts",
+      "testCase": "TC: Verify Cancel the loan as  LD [ Individual ]",
+      "testCaseId": 533,
+      "steps": 39,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-request-relock-the-loan-as-lo-individual--535.spec.ts",
+      "testCase": "TC: Verify Request relock the loan as  LO [ Individual ]",
+      "testCaseId": 535,
+      "steps": 66,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-all-loan-events-/tc-verify-lock-the-relock-loan-as-ld-individual--537.spec.ts",
+      "testCase": "TC: Verify lock the relock loan as LD [ Individual ]",
+      "testCaseId": 537,
+      "steps": 49,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/ext-beeline-vista-api-correct/ext-beeline-vista-api-correct-570.spec.ts",
+      "testCase": "EXT: Beeline-Vista API [Correct]",
+      "testCaseId": 570,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts03_tc01_login-to-ext-with-loan-officer-credentials-it-will-show-you-pipeli-1976.spec.ts",
+      "testCase": "REG_TS03_TC01_Login to EXT with Loan Officer Credentials, it will show you Pipeline with the Loan you created in Encompass",
+      "testCaseId": 1976,
+      "steps": 16,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc01_make-a-different-combinations-from---loan-purpose-loan-type-loan-o-1904.spec.ts",
+      "testCase": "REG_TS04_TC01_Make a different combinations from - loan purpose, loan type, loan options, occupancy etc and verify the pricing results",
+      "testCaseId": 1904,
+      "steps": 145,
+      "confidence": "high",
+      "warningCount": 14,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc02_ensure-cltv-calculates-correctly-loan-amt-2nd-loan-amt-property-va-1900.spec.ts",
+      "testCase": "REG_TS04_TC02_Ensure CLTV calculates correctly (loan amt + 2nd loan amt / property value (the minimun of property value and appraisal value)).",
+      "testCaseId": 1900,
+      "steps": 30,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc03_change-days-lock-eg-15304560-etc-and-verify-pricing-1908.spec.ts",
+      "testCase": "REG_TS04_TC03_Change days lock (eg. 15/30/45/60 etc)  and verify pricing",
+      "testCaseId": 1908,
+      "steps": 54,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc04_change-terms-and-verify-pricing-priced-for-all-terms-51015202530-y-1906.spec.ts",
+      "testCase": "REG_TS04_TC04_Change Terms and verify pricing (priced for all terms, 5+10+15+20+25+30 Years)",
+      "testCaseId": 1906,
+      "steps": 50,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc05_check-pricing-adjustments-if-it-is-triggering-the-right-adj-1919.spec.ts",
+      "testCase": "REG_TS04_TC05_Check pricing adjustments if it is triggering the right adj.",
+      "testCaseId": 1919,
+      "steps": 66,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc07_final-price-on-adj-modal-and-price-on-pricer-should-have-the-same--1922.spec.ts",
+      "testCase": "REG_TS04_TC07_Final Price on adj modal and Price on pricer should have the same value1",
+      "testCaseId": 1922,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc09_if-ufmip-financed-yes-ufmip-fees-should-be-added-to-total-loan-amo-1931.spec.ts",
+      "testCase": "REG_TS04_TC09_If UFMIP Financed : Yes UFMIP Fees should be added to Total Loan Amount and verify cost to borrower if UFMIP Financed : No UFMIP Fees should  NOT be added to Total Loan Amount and verify cost to borrower",
+      "testCaseId": 1931,
+      "steps": 51,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc10_if-funding-fee-financed-yes-funding-fees-should-be-added-to-total--1938.spec.ts",
+      "testCase": "REG_TS04_TC10_if Funding Fee Financed : Yes Funding Fees should be added to Total Loan Amount and verify cost to borrower if Funding Fee Financed : No Funding Fees should  NOT be added to Total Loan Amount and verify cost to borrower",
+      "testCaseId": 1938,
+      "steps": 56,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc12_verify-if-mi-fee-is-getting-triggered-in-pricer-window-when-ltv-80-1941.spec.ts",
+      "testCase": "REG_TS04_TC12_Verify if MI fee is getting triggered in pricer window when ltv > 80% (Conventional Loan) an Compensation Type is BorrowerPaid",
+      "testCaseId": 1941,
+      "steps": 58,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc13_cost-to-borrower-should-have-ufmipfunding-feesguaranteed-fees-fha--1953.spec.ts",
+      "testCase": "REG_TS04_TC13_Cost to Borrower should have UFMIP/Funding fees/Guaranteed Fees (FHA, VA and USDA",
+      "testCaseId": 1953,
+      "steps": 70,
+      "confidence": "high",
+      "warningCount": 5,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc14_01_under-impersonation-select-any-user-lo-ld-you-want-to-impersona-1959.spec.ts",
+      "testCase": "REG_TS04_TC14_01_Under impersonation select any user (LO / LD) you want to impersonate and check the pricing",
+      "testCaseId": 1959,
+      "steps": 44,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc14_02_under-impersonation-select-any-user-lo-ld-you-want-to-impersona-2349.spec.ts",
+      "testCase": "REG_TS04_TC14_02_Under impersonation select any user (LO / LD) you want to impersonate and check the pricing",
+      "testCaseId": 2349,
+      "steps": 8,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc15_make-changes-to-zip-codes-and-see-if-it-picks-correct-city-and-sta-1956.spec.ts",
+      "testCase": "REG_TS04_TC15_Make changes to Zip Codes and see if it picks correct city and state under Property Details",
+      "testCaseId": 1956,
+      "steps": 42,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts05_tc02_this-will-take-you-to-loan-application-screen-check-all-the-info-f-1992.spec.ts",
+      "testCase": "REG_TS05_TC02_This will take you to Loan Application screen, check all the info. for the Note Rate selected is correct under 'Scenario Pricing Request', Ajustment Summery and Lock Information Los Loan",
+      "testCaseId": 1992,
+      "steps": 42,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts05_tc03_check-if-expiration-date-is-correct-1993.spec.ts",
+      "testCase": "REG_TS05_TC03_Check if Expiration Date is correct",
+      "testCaseId": 1993,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts05_tc04_if-price-is-selected-it-will-take-user-to-pricing-page-where-all-t-1988.spec.ts",
+      "testCase": "REG_TS05_TC04_If Price is selected it will take user to Pricing Page where all the above steps will be done",
+      "testCaseId": 1988,
+      "steps": 64,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts06_tc02_01_request-post-lock-price-concession-window-will-popup-where-you--2024.spec.ts",
+      "testCase": "REG_TS06_TC02_01_Request Post Lock Price Concession (Window will popup where you can enter Fee Price and select Reason and amount will be applied) Check Fee and Reason are applied correctly Wait for LD to Lock or Deny Lock Request",
+      "testCaseId": 2024,
+      "steps": 24,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts06_tc02_02_request-post-lock-price-concession-window-will-popup-where-you--2416.spec.ts",
+      "testCase": "REG_TS06_TC02_02_Request Post Lock Price Concession (Window will popup where you can enter Fee Price and select Reason and amount will be applied) Check Fee and Reason are applied correctly Wait for LD to Lock or Deny Lock Request",
+      "testCaseId": 2416,
+      "steps": 29,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts07_tc02_01_a_if-ld-deny-request-it-will-go-back-to-previous-events-2127.spec.ts",
+      "testCase": "REG_TS07_TC02_01_A_if LD Deny Request it will go back to previous Events",
+      "testCaseId": 2127,
+      "steps": 26,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts07_tc02_01_b_if-ld-deny-request-it-will-go-back-to-previous-events-2130.spec.ts",
+      "testCase": "REG_TS07_TC02_01_B_if LD Deny Request it will go back to previous Events",
+      "testCaseId": 2130,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts13_tc01_lock-without-expiration-date-and-comment-2254.spec.ts",
+      "testCase": "REG_TS13_TC01_Lock without Expiration date and comment",
+      "testCaseId": 2254,
+      "steps": 38,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts14_tc02_cancel-2293.spec.ts",
+      "testCase": "REG_TS14_TC02_Cancel",
+      "testCaseId": 2293,
+      "steps": 21,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts14_tc03_add-new-2308.spec.ts",
+      "testCase": "REG_TS14_TC03_Add new",
+      "testCaseId": 2308,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts16_tc01_01_verify-add-adhoc-adjustments-lock-desk-is-able-to-addeditdelete-2141.spec.ts",
+      "testCase": "REG_TS16_TC01_01_Verify Add-Adhoc Adjustments Lock Desk is able to add/edit/delete Ad-hocs from pricing on both unlocked and locked loans",
+      "testCaseId": 2141,
+      "steps": 30,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts13_tc03_deny-with-out-expiration-date-2259.spec.ts",
+      "testCase": "REG_TS13_TC03_Deny with out expiration date",
+      "testCaseId": 2259,
+      "steps": 32,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts01_tc03_loan-creation-using-encompass-for-loan-officer2-testsigma-1999.spec.ts",
+      "testCase": "REG_TS01_TC03_Loan Creation Using Encompass For Loan Officer2 TestSigma",
+      "testCaseId": 1999,
+      "steps": 61,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts14_tc04_delete-2315.spec.ts",
+      "testCase": "REG_TS14_TC04_Delete",
+      "testCaseId": 2315,
+      "steps": 14,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts06_tc04_01_b_concessions-will-be-applied-in-the-adjustments-check-if-appli-2116.spec.ts",
+      "testCase": "REG_TS06_TC04_01_B_Concessions will be applied in the Adjustments. Check if applied with correct amount. If LD approves lock, Below Events will be seen(ML)",
+      "testCaseId": 2116,
+      "steps": 16,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts06_tc04_01_a_concessions-will-be-applied-in-the-adjustments-check-if-appli-2102.spec.ts",
+      "testCase": "REG_TS06_TC04_01_A_Concessions will be applied in the Adjustments. Check if applied with correct amount. If LD approves lock, Below Events will be seen(ML)",
+      "testCaseId": 2102,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts05_tc01_02-1985.spec.ts",
+      "testCase": "REG_TS05_TC01_02",
+      "testCaseId": 1985,
+      "steps": 73,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts05_tc01_01-1977.spec.ts",
+      "testCase": "REG_TS05_TC01_01",
+      "testCaseId": 1977,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc08_b_click-on-cost-to-borrower-line-result-verify-the-origination-cos-1995.spec.ts",
+      "testCase": "REG_TS04_TC08_B_Click on Cost to Borrower line result. Verify the origination cost - For Conventional, FHA, VA Loan Types",
+      "testCaseId": 1995,
+      "steps": 78,
+      "confidence": "high",
+      "warningCount": 8,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/loan-pricer-module/reg_ts04_tc08_a_click-on-cost-to-borrower-line-result-verify-the-origination-cos-2195.spec.ts",
+      "testCase": "REG_TS04_TC08_A_Click on Cost to Borrower line result. Verify the origination cost - For Conventional, FHA, VA Loan Types",
+      "testCaseId": 2195,
+      "steps": 15,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc01_default-zip-code-and-city-is-displayed-in-the-search-results-1565.spec.ts",
+      "testCase": "REG_TS01_TC01_Default Zip Code and City is displayed in the search results",
+      "testCaseId": 1565,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc02_01_no-default-favourites-are-saved-1537.spec.ts",
+      "testCase": "REG_TS01_TC02_01_No Default Favourites are saved",
+      "testCaseId": 1537,
+      "steps": 22,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc02_02_missing-zip-code-alert-will-pop-up-1602.spec.ts",
+      "testCase": "REG_TS01_TC02_02_Missing Zip Code alert will pop up",
+      "testCaseId": 1602,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc03_favorites-window-will-pop-up-with-saved-search-scenarios-1599.spec.ts",
+      "testCase": "REG_TS01_TC03_Favorites window will pop up with saved search scenarios",
+      "testCaseId": 1599,
+      "steps": 38,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc04_saved-favorite-search-scenarios-will-be-displayed-in-the-favorites-1600.spec.ts",
+      "testCase": "REG_TS01_TC04_Saved Favorite search scenarios will be displayed in the Favorites Window",
+      "testCaseId": 1600,
+      "steps": 24,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc05_if-default-favorites-is-saved-once-you-launch-a-quick-pricer-it-wi-1717.spec.ts",
+      "testCase": "REG_TS01_TC05_If Default Favorites is Saved, once you launch a Quick Pricer it will default to the default zip code",
+      "testCaseId": 1717,
+      "steps": 35,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc17_able-to-toggle-auto-search-onoff-1677.spec.ts",
+      "testCase": "REG_TS01_TC17_Able to toggle Auto Search On/Off",
+      "testCaseId": 1677,
+      "steps": 58,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc10_impersonate-field-is-not-available-to-the-loan-officer-user-1605.spec.ts",
+      "testCase": "REG_TS01_TC10_Impersonate field is not available to the Loan Officer user",
+      "testCaseId": 1605,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc13_click-on-product-finder-and-the-window-will-pop-up-with-smos-selec-1670.spec.ts",
+      "testCase": "REG_TS01_TC13_Click on Product Finder and the window will pop up with SMOs. Select some SMOs and make sure they're shown under Product Finder",
+      "testCaseId": 1670,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc14_input-different-values-on-the-back-end-dti-field-and-make-sure-you-1685.spec.ts",
+      "testCase": "REG_TS01_TC14_Input different values on the Back-End DTI field and make sure you get the results",
+      "testCaseId": 1685,
+      "steps": 54,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc15_dynamic-fields-pop-up-opens-1689.spec.ts",
+      "testCase": "REG_TS01_TC15_Dynamic Fields Pop Up opens",
+      "testCaseId": 1689,
+      "steps": 32,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc19_after-you-make-changes-in-the-total-monthly-income-andor-zipcode-f-1694.spec.ts",
+      "testCase": "REG_TS01_TC19_After you make changes in the Total Monthly Income and/or ZipCode fields, AMI% field is getting updated",
+      "testCaseId": 1694,
+      "steps": 52,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc18_01_under-result-filter-click-on-pricing-date-button-and-set-the-da-1693.spec.ts",
+      "testCase": "REG_TS01_TC18_01_Under Result Filter click on Pricing Date button and set the date. Make sure historical pricing for set date produce the results",
+      "testCaseId": 1693,
+      "steps": 41,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc11_01_check-adj-pop-up-to-make-sure-its-displaying-the-correct-adj-1623.spec.ts",
+      "testCase": "REG_TS01_TC11_01_Check Adj Pop Up to make sure it's displaying the correct adj",
+      "testCaseId": 1623,
+      "steps": 55,
+      "confidence": "high",
+      "warningCount": 6,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc11_02_check-adj-pop-up-to-make-sure-its-displaying-the-correct-adj-1769.spec.ts",
+      "testCase": "REG_TS01_TC11_02_Check Adj Pop Up to make sure it's displaying the correct adj",
+      "testCaseId": 1769,
+      "steps": 52,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc09_01_results-filter-will-be-displayed-on-the-pricing-page-as-configu-1641.spec.ts",
+      "testCase": "REG_TS01_TC09_01_Results Filter will be displayed on the pricing page as configured in the Results Settings(Default UI)",
+      "testCaseId": 1641,
+      "steps": 61,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc09_02_results-filter-will-be-displayed-on-the-pricing-page-as-configu-1642.spec.ts",
+      "testCase": "REG_TS01_TC09_02_Results Filter will be displayed on the pricing page as configured in the Results Settings(Custom UI)",
+      "testCaseId": 1642,
+      "steps": 61,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc18_02_under-result-filter-click-on-pricing-date-button-and-set-the-da-1794.spec.ts",
+      "testCase": "REG_TS01_TC18_02_Under Result Filter click on Pricing Date button and set the date. Make sure historical pricing for set date produce the results",
+      "testCaseId": 1794,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc12_01_check-cost-to-borrower-pop-up-to-make-sure-its-displaying-the-c-1624.spec.ts",
+      "testCase": "REG_TS01_TC12_01_Check Cost to Borrower Pop Up to make sure it's displaying the correct info(DefaultUI)",
+      "testCaseId": 1624,
+      "steps": 43,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc12_02_check-cost-to-borrower-pop-up-to-make-sure-its-displaying-the-c-1628.spec.ts",
+      "testCase": "REG_TS01_TC12_02_Check Cost to Borrower Pop Up to make sure it's displaying the correct info(CustomUI)",
+      "testCaseId": 1628,
+      "steps": 37,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc16_01_ltv-needs-to-be-more-than-80-for-the-mi-field-to-displaydefault-1657.spec.ts",
+      "testCase": "REG_TS01_TC16_01_LTV needs to be more than 80% for the MI field to display(Default UI)",
+      "testCaseId": 1657,
+      "steps": 53,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc16_02_ltv-needs-to-be-more-than-80-for-the-mi-field-to-displaycustom--1667.spec.ts",
+      "testCase": "REG_TS01_TC16_02_LTV needs to be more than 80% for the MI field to display(Custom UI)",
+      "testCaseId": 1667,
+      "steps": 58,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc21_01_select-different-lock-days-from-the-dropdown-and-check-the-pric-1696.spec.ts",
+      "testCase": "REG_TS01_TC21_01_Select different Lock Days from the dropdown and check the pricing results",
+      "testCaseId": 1696,
+      "steps": 50,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc21_02_select-different-lock-days-from-the-dropdown-and-check-the-pric-1742.spec.ts",
+      "testCase": "REG_TS01_TC21_02_Select different Lock Days from the dropdown and check the pricing results",
+      "testCaseId": 1742,
+      "steps": 53,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc20_01_type-terms-years-other-than-30-years-ie-15-20-25-years-and-make-1740.spec.ts",
+      "testCase": "REG_TS01_TC20_01_Type terms years other than 30 years i.e. 15, 20, 25 years and make sure you get the results",
+      "testCaseId": 1740,
+      "steps": 71,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc20_02_type-terms-years-other-than-30-years-ie-15-20-25-years-and-make-1741.spec.ts",
+      "testCase": "REG_TS01_TC20_02_Type terms years other than 30 years i.e. 15, 20, 25 years and make sure you get the results",
+      "testCaseId": 1741,
+      "steps": 100,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc24_01_when-an-va-loan-type-is-selected-the-system-must-display-the-fu-1714.spec.ts",
+      "testCase": "REG_TS01_TC24_01_when an VA loan type is selected, the system must display the Funding fee amount and Total Loan Amount within the Cost to Borrower popup.",
+      "testCaseId": 1714,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc24_02_when-an-va-loan-type-is-selected-the-system-must-display-the-fu-1716.spec.ts",
+      "testCase": "REG_TS01_TC24_02_when an VA loan type is selected, the system must display the Funding fee amount and Total Loan Amount within the Cost to Borrower popup.",
+      "testCaseId": 1716,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc25_01_when-an-usda-rural-loan-type-is-selected-the-system-must-displa-1718.spec.ts",
+      "testCase": "REG_TS01_TC25_01_when an USDA Rural loan type is selected, the system must display the Guaranteed fee amount and Total Loan Amount within the Cost to Borrower popup.",
+      "testCaseId": 1718,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc25_02_when-an-usda-rural-loan-type-is-selected-the-system-must-displa-1719.spec.ts",
+      "testCase": "REG_TS01_TC25_02_when an USDA Rural loan type is selected, the system must display the Guaranteed fee amount and Total Loan Amount within the Cost to Borrower popup.",
+      "testCaseId": 1719,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc30_01_in-the-quick-pricer-ld-and-lo-users-should-be-able-to-view-pric-1751.spec.ts",
+      "testCase": "REG_TS01_TC30_01_In the Quick Pricer, LD and LO users should be able to view pricing results but should not see any action buttons on the result rows.",
+      "testCaseId": 1751,
+      "steps": 37,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc30_02_in-the-quick-pricer-ld-and-lo-users-should-be-able-to-view-pric-1760.spec.ts",
+      "testCase": "REG_TS01_TC30_02_In the Quick Pricer, LD and LO users should be able to view pricing results but should not see any action buttons on the result rows.",
+      "testCaseId": 1760,
+      "steps": 34,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc28_01_disqualified-results-will-show-up-in-the-ineligible-tab-1724.spec.ts",
+      "testCase": "REG_TS01_TC28_01_Disqualified results will show up in the Ineligible tab.",
+      "testCaseId": 1724,
+      "steps": 27,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc28_02_disqualified-results-will-show-up-in-the-ineligible-tab-1725.spec.ts",
+      "testCase": "REG_TS01_TC28_02_Disqualified results will show up in the Ineligible tab.",
+      "testCaseId": 1725,
+      "steps": 25,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc08_search-fields-are-displayed-as-per-pricing-configuration-settings--1594.spec.ts",
+      "testCase": "REG_TS01_TC08_Search fields are displayed as per pricing configuration settings for Quick Pricer",
+      "testCaseId": 1594,
+      "steps": 100,
+      "confidence": "medium",
+      "warningCount": 21,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc29_01_base-0-and-base-100-1752.spec.ts",
+      "testCase": "REG_TS01_TC29_01_Base 0 and Base 100",
+      "testCaseId": 1752,
+      "steps": 38,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc29_02_-1789.spec.ts",
+      "testCase": "REG_TS01_TC29_02_",
+      "testCaseId": 1789,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc26_01_for-any-loan-type-the-amortization-method-can-be-either-fixed-o-1779.spec.ts",
+      "testCase": "REG_TS01_TC26_01_For any loan type, the amortization method can be either Fixed or Variable, indicating whether the repayment schedule remains constant or can change over time.",
+      "testCaseId": 1779,
+      "steps": 77,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc26_02_for-any-loan-type-the-amortization-method-can-be-either-fixed-o-1780.spec.ts",
+      "testCase": "REG_TS01_TC26_02_For any loan type, the amortization method can be either Fixed or Variable, indicating whether the repayment schedule remains constant or can change over time.",
+      "testCaseId": 1780,
+      "steps": 94,
+      "confidence": "high",
+      "warningCount": 11,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc23_01_when-an-fha-loan-type-is-selected-the-system-must-display-the-u-1706.spec.ts",
+      "testCase": "REG_TS01_TC23_01_when an FHA loan type is selected, the system must display the UFMIP fee within the Cost to Borrower popup. This ensures that the borrower can see all upfront costs associated with the loan before proceeding.",
+      "testCaseId": 1706,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricer-module/reg_ts01_tc23_02_when-an-fha-loan-type-is-selected-the-system-must-display-the-u-1711.spec.ts",
+      "testCase": "REG_TS01_TC23_02_when an FHA loan type is selected, the system must display the UFMIP fee within the Cost to Borrower popup. This ensures that the borrower can see all upfront costs associated with the loan before proceeding.",
+      "testCaseId": 1711,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricerinternal/reg_ts01_tc06_01_create-or-send-pdf-button-appears-at-the-bottom-with-the-select-1597.spec.ts",
+      "testCase": "REG_TS01_TC06_01_Create or Send PDF Button appears at the bottom with the selected Programs and a user is able to download the pricing comparison document---",
+      "testCaseId": 1597,
+      "steps": 59,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricerinternal/reg_ts01_tc06_02_create-or-send-pdf-button-appears-at-the-bottom-with-the-select-1640.spec.ts",
+      "testCase": "REG_TS01_TC06_02_Create or Send PDF Button appears at the bottom with the selected Programs and a user is able to download the pricing comparison document--",
+      "testCaseId": 1640,
+      "steps": 32,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/quick-pricerinternal/reg_ts01_tc06_03_create-or-send-pdf-button-appears-at-the-bottom-with-the-select-1543.spec.ts",
+      "testCase": "REG_TS01_TC06_03_Create or Send PDF Button appears at the bottom with the selected Programs and a user is able to download the pricing comparison document",
+      "testCaseId": 1543,
+      "steps": 47,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/quick-pricerinternal/reg_ts01_tc07_results-columns-that-are-configured-in-the-pricing-configuration-a-1572.spec.ts",
+      "testCase": "REG_TS01_TC07_Results Columns that are configured in the pricing configuration appear in the pricing results",
+      "testCaseId": 1572,
+      "steps": 76,
+      "confidence": "medium",
+      "warningCount": 13,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricerinternal/reg_ts01_tc22_01_a-result-filter-applies-the-users-selected-filter-options-to-di-1699.spec.ts",
+      "testCase": "REG_TS01_TC22_01_A result filter applies the user’s selected filter options to display only the relevant results. It dynamically updates the output based on specific attributes",
+      "testCaseId": 1699,
+      "steps": 109,
+      "confidence": "medium",
+      "warningCount": 16,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/quick-pricerinternal/reg_ts01_tc22_02_a-result-filter-applies-the-users-selected-filter-options-to-di-1700.spec.ts",
+      "testCase": "REG_TS01_TC22_02_A result filter applies the user’s selected filter options to display only the relevant results. It dynamically updates the output based on specific attributes",
+      "testCaseId": 1700,
+      "steps": 100,
+      "confidence": "medium",
+      "warningCount": 17,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regession-export-pricing/reg-tc-export-pricing-557.spec.ts",
+      "testCase": "REG TC: Export Pricing",
+      "testCaseId": 557,
+      "steps": 60,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-test-cases/reg-tc-export-pricing-557.spec.ts",
+      "testCase": "REG TC: Export Pricing",
+      "testCaseId": 557,
+      "steps": 60,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-test-cases/reg-tc-accept-lock-request-with-price-concession-as-ld-628.spec.ts",
+      "testCase": "REG TC: Accept Lock Request with Price Concession as LD",
+      "testCaseId": 628,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-test-cases/reg-tc-lock-request-with-price-concession-as-ld-590.spec.ts",
+      "testCase": "REG TC: Lock Request With Price Concession as LD",
+      "testCaseId": 590,
+      "steps": 35,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-test-cases/reg-tc-accept-extension-lock-for-ext-loan-officer-689.spec.ts",
+      "testCase": "REG TC: Accept Extension Lock For EXT Loan Officer",
+      "testCaseId": 689,
+      "steps": 22,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-test-cases/reg-tc-events-and-expiration-date-with-concession-for-ext-loan-officer-634.spec.ts",
+      "testCase": "REG TC: Events and Expiration Date With Concession For EXT Loan Officer",
+      "testCaseId": 634,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-test-cases/reg-tc-concessions-for-ext-lock-desk-633.spec.ts",
+      "testCase": "REG TC: Concessions For EXT Lock Desk",
+      "testCaseId": 633,
+      "steps": 52,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/regression-cancel-lock/reg-tc-cancel-lock-step-1-611.spec.ts",
+      "testCase": "REG TC: Cancel Lock Step 1",
+      "testCaseId": 611,
+      "steps": 50,
+      "confidence": "medium",
+      "warningCount": 7,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-cancel-lock/reg-tc-cancel-lock-step-2-620.spec.ts",
+      "testCase": "REG TC: Cancel Lock Step 2",
+      "testCaseId": 620,
+      "steps": 28,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-cancel-lock/reg-tc-cancel-lock-step-3-639.spec.ts",
+      "testCase": "REG TC: Cancel Lock Step 3",
+      "testCaseId": 639,
+      "steps": 70,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-cancel-lock/reg-tc-cancel-lock-step-4-641.spec.ts",
+      "testCase": "REG TC: Cancel Lock Step 4",
+      "testCaseId": 641,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/regression-concessions/reg-tc-concessions-for-ext-lock-desk-633.spec.ts",
+      "testCase": "REG TC: Concessions For EXT Lock Desk",
+      "testCaseId": 633,
+      "steps": 52,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/regression-concessions/rec-tc-events-and-expiration-date-for-concession--660.spec.ts",
+      "testCase": "REC TC: Events and Expiration Date For Concession ",
+      "testCaseId": 660,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-extensions/reg-tc-extensions-for-ext-lock-desk-668.spec.ts",
+      "testCase": "REG TC: Extensions For EXT Lock Desk",
+      "testCaseId": 668,
+      "steps": 49,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/regression-extensions/reg-tc-accept-extension-lock-for-ext-loan-officer-689.spec.ts",
+      "testCase": "REG TC: Accept Extension Lock For EXT Loan Officer",
+      "testCaseId": 689,
+      "steps": 22,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-lock-request-with-price-concession/reg-tc-lock-request-with-price-concession-as-ld-590.spec.ts",
+      "testCase": "REG TC: Lock Request With Price Concession as LD",
+      "testCaseId": 590,
+      "steps": 35,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-lock-request-with-price-concession/reg-tc-accept-lock-request-with-price-concession-as-ld-628.spec.ts",
+      "testCase": "REG TC: Accept Lock Request with Price Concession as LD",
+      "testCaseId": 628,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-reprice/reg-tc-reprice-step-1-653.spec.ts",
+      "testCase": "REG TC: Reprice Step 1",
+      "testCaseId": 653,
+      "steps": 52,
+      "confidence": "medium",
+      "warningCount": 7,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-reprice/reg-tc-reprice-step-2-658.spec.ts",
+      "testCase": "REG TC: Reprice Step 2",
+      "testCaseId": 658,
+      "steps": 28,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/regression-reprice/reg-tc-reprice-step-3-677.spec.ts",
+      "testCase": "REG TC: Reprice Step 3",
+      "testCaseId": 677,
+      "steps": 67,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/regression-reprice/reg-tc-reprice-step-4-679.spec.ts",
+      "testCase": "REG TC: Reprice Step 4",
+      "testCaseId": 679,
+      "steps": 49,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/regression-request-lock/reg-tc-request-lock-for-ext-lock-desk-608.spec.ts",
+      "testCase": "REG TC: Request Lock For EXT Lock Desk",
+      "testCaseId": 608,
+      "steps": 34,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/regression-request-lock/reg-tc-accept-request-lock-for-ext-loan-officer-671.spec.ts",
+      "testCase": "REG TC: Accept Request Lock For EXT Loan Officer",
+      "testCaseId": 671,
+      "steps": 24,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite---corr-smoke-test/tc-corr-smoke-769.spec.ts",
+      "testCase": "TC: CORR Smoke",
+      "testCaseId": 769,
+      "steps": 2,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-addeditdelete-ad-hoc_adjustments_lp/reg_ts16_tc01_01_verify-add-adhoc-adjustments-lock-desk-is-able-to-addeditdelete-2141.spec.ts",
+      "testCase": "REG_TS16_TC01_01_Verify Add-Adhoc Adjustments Lock Desk is able to add/edit/delete Ad-hocs from pricing on both unlocked and locked loans",
+      "testCaseId": 2141,
+      "steps": 30,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-business-pricing/tc-deepheaven-pricer-446.spec.ts",
+      "testCase": "TC: Deepheaven Pricer",
+      "testCaseId": 446,
+      "steps": 73,
+      "confidence": "medium",
+      "warningCount": 19,
+      "todoCount": 17
+    },
+    {
+      "file": "tests/ext-web/suite-business-pricing-2/tc-deepheaven-pricer-2-746.spec.ts",
+      "testCase": "TC: Deepheaven Pricer #2",
+      "testCaseId": 746,
+      "steps": 57,
+      "confidence": "medium",
+      "warningCount": 14,
+      "todoCount": 13
+    },
+    {
+      "file": "tests/ext-web/suite-config---customui/pre-cond-config---customui-377.spec.ts",
+      "testCase": "Pre-cond: Config - CustomUI",
+      "testCaseId": 377,
+      "steps": 13,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-config---standardui-loan-pricer/pre-cond-config---standard-ui-loan-pricer-393.spec.ts",
+      "testCase": "Pre-cond: Config - Standard UI [Loan Pricer]",
+      "testCaseId": 393,
+      "steps": 12,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-deny-request-lock-smoke/pre-cond-config---standard-ui-loan-pricer-393.spec.ts",
+      "testCase": "Pre-cond: Config - Standard UI [Loan Pricer]",
+      "testCaseId": 393,
+      "steps": 12,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-deny-request-lock-smoke/tc-deny-request-lock-and-request-lock-again-477.spec.ts",
+      "testCase": "TC: Deny Request Lock and Request Lock Again",
+      "testCaseId": 477,
+      "steps": 69,
+      "confidence": "high",
+      "warningCount": 8,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-export_pricing_lp/reg_ts05_tc01_01-1977.spec.ts",
+      "testCase": "REG_TS05_TC01_01",
+      "testCaseId": 1977,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-export_pricing_lp/reg_ts05_tc01_02-1985.spec.ts",
+      "testCase": "REG_TS05_TC01_02",
+      "testCaseId": 1985,
+      "steps": 73,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-export_pricing_lp/reg_ts05_tc02_this-will-take-you-to-loan-application-screen-check-all-the-info-f-1992.spec.ts",
+      "testCase": "REG_TS05_TC02_This will take you to Loan Application screen, check all the info. for the Note Rate selected is correct under 'Scenario Pricing Request', Ajustment Summery and Lock Information Los Loan",
+      "testCaseId": 1992,
+      "steps": 42,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-export_pricing_lp/reg_ts05_tc03_check-if-expiration-date-is-correct-1993.spec.ts",
+      "testCase": "REG_TS05_TC03_Check if Expiration Date is correct",
+      "testCaseId": 1993,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-export_pricing_lp/reg_ts05_tc04_if-price-is-selected-it-will-take-user-to-pricing-page-where-all-t-1988.spec.ts",
+      "testCase": "REG_TS05_TC04_If Price is selected it will take user to Pricing Page where all the above steps will be done",
+      "testCaseId": 1988,
+      "steps": 64,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-request-lock-as-lo-145.spec.ts",
+      "testCase": "TC: Verify Request Lock as LO",
+      "testCaseId": 145,
+      "steps": 103,
+      "confidence": "medium",
+      "warningCount": 8,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-lock-the-loan-as-ld-157.spec.ts",
+      "testCase": "TC: Verify Lock the loan as LD",
+      "testCaseId": 157,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-loan-extension-as-lo-161.spec.ts",
+      "testCase": "TC: Verify Loan Extension as LO",
+      "testCaseId": 161,
+      "steps": 53,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-accept-loan-extension-as-ld-163.spec.ts",
+      "testCase": "TC: Verify Accept Loan Extension as LD",
+      "testCaseId": 163,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-request-loan-concession-as-lo-164.spec.ts",
+      "testCase": "TC: Verify Request Loan Concession as LO",
+      "testCaseId": 164,
+      "steps": 61,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-accept-loan-concession-as-ld-195.spec.ts",
+      "testCase": "TC: Verify Accept Loan Concession as LD",
+      "testCaseId": 195,
+      "steps": 42,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-generate-lock-confirmation-documents-205.spec.ts",
+      "testCase": "TC: Verify Generate Lock Confirmation Documents",
+      "testCaseId": 205,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-reprice-the-loan-as-lo-209.spec.ts",
+      "testCase": "TC: Verify Reprice the loan as  LO",
+      "testCaseId": 209,
+      "steps": 77,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-accept-reprice-the-loan-as-ld-206.spec.ts",
+      "testCase": "TC: Verify Accept Reprice the loan as  LD",
+      "testCaseId": 206,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-cancel-the-loan-as-ld-207.spec.ts",
+      "testCase": "TC: Verify Cancel the loan as  LD",
+      "testCaseId": 207,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-request-relock-the-loan-as-lo-208.spec.ts",
+      "testCase": "TC: Verify Request relock the loan as  LO",
+      "testCaseId": 208,
+      "steps": 74,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-ext-end-to-end-loan-pricing-flow/tc-verify-lock-the-relock-loan-as-ld-210.spec.ts",
+      "testCase": "TC: Verify lock the relock loan as LD",
+      "testCaseId": 210,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-generate-pricing-comparison-pdf-document/tc-generate-pricing-comparison-pdf-document-179.spec.ts",
+      "testCase": "TC: Generate Pricing Comparison\nPDF Document",
+      "testCaseId": 179,
+      "steps": 41,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-generate-pricing-comparison-pdf-document/tc-verify-generate-lock-confirmation-documents-205.spec.ts",
+      "testCase": "TC: Verify Generate Lock Confirmation Documents",
+      "testCaseId": 205,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-get-pricing-api/tc-get-pricing-api-461.spec.ts",
+      "testCase": "TC: Get Pricing API",
+      "testCaseId": 461,
+      "steps": 21,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-jet-mortgage-pricing/tc-jet-mortage-flex-pricer-750.spec.ts",
+      "testCase": "TC: Jet Mortage Flex Pricer",
+      "testCaseId": 750,
+      "steps": 78,
+      "confidence": "medium",
+      "warningCount": 19,
+      "todoCount": 17
+    },
+    {
+      "file": "tests/ext-web/suite-loan_view_lp/reg_ts03_tc01_login-to-ext-with-loan-officer-credentials-it-will-show-you-pipeli-1976.spec.ts",
+      "testCase": "REG_TS03_TC01_Login to EXT with Loan Officer Credentials, it will show you Pipeline with the Loan you created in Encompass",
+      "testCaseId": 1976,
+      "steps": 16,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-accept-loan-concession/tc-verify-lock-the-loan-as-ld-157.spec.ts",
+      "testCase": "TC: Verify Lock the loan as LD",
+      "testCaseId": 157,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-accept-loan-concession/tc-verify-loan-extension-as-lo-161.spec.ts",
+      "testCase": "TC: Verify Loan Extension as LO",
+      "testCaseId": 161,
+      "steps": 53,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-accept-loan-concession/tc-verify-accept-loan-extension-as-ld-163.spec.ts",
+      "testCase": "TC: Verify Accept Loan Extension as LD",
+      "testCaseId": 163,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-accept-loan-concession/tc-verify-request-loan-concession-as-lo-164.spec.ts",
+      "testCase": "TC: Verify Request Loan Concession as LO",
+      "testCaseId": 164,
+      "steps": 61,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-accept-loan-concession/tc-verify-accept-loan-concession-as-ld-195.spec.ts",
+      "testCase": "TC: Verify Accept Loan Concession as LD",
+      "testCaseId": 195,
+      "steps": 42,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-lock-the-loan-as-ld-157.spec.ts",
+      "testCase": "TC: Verify Lock the loan as LD",
+      "testCaseId": 157,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-loan-extension-as-lo-161.spec.ts",
+      "testCase": "TC: Verify Loan Extension as LO",
+      "testCaseId": 161,
+      "steps": 53,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-accept-loan-extension-as-ld-163.spec.ts",
+      "testCase": "TC: Verify Accept Loan Extension as LD",
+      "testCaseId": 163,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-request-loan-concession-as-lo-164.spec.ts",
+      "testCase": "TC: Verify Request Loan Concession as LO",
+      "testCaseId": 164,
+      "steps": 61,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-accept-loan-concession-as-ld-195.spec.ts",
+      "testCase": "TC: Verify Accept Loan Concession as LD",
+      "testCaseId": 195,
+      "steps": 42,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-generate-lock-confirmation-documents-205.spec.ts",
+      "testCase": "TC: Verify Generate Lock Confirmation Documents",
+      "testCaseId": 205,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-reprice-the-loan-as-lo-209.spec.ts",
+      "testCase": "TC: Verify Reprice the loan as  LO",
+      "testCaseId": 209,
+      "steps": 77,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-accept-reprice-the-loan-as-ld-206.spec.ts",
+      "testCase": "TC: Verify Accept Reprice the loan as  LD",
+      "testCaseId": 206,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-cancel-the-loan-as-ld-207.spec.ts",
+      "testCase": "TC: Verify Cancel the loan as  LD",
+      "testCaseId": 207,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-request-relock-the-loan-as-lo-208.spec.ts",
+      "testCase": "TC: Verify Request relock the loan as  LO",
+      "testCaseId": 208,
+      "steps": 74,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock-to-lock-the-relock/tc-verify-lock-the-relock-loan-as-ld-210.spec.ts",
+      "testCase": "TC: Verify lock the relock loan as LD",
+      "testCaseId": 210,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-lock_request_with_price_concession_lp/reg_ts06_tc02_01_request-post-lock-price-concession-window-will-popup-where-you--2024.spec.ts",
+      "testCase": "REG_TS06_TC02_01_Request Post Lock Price Concession (Window will popup where you can enter Fee Price and select Reason and amount will be applied) Check Fee and Reason are applied correctly Wait for LD to Lock or Deny Lock Request",
+      "testCaseId": 2024,
+      "steps": 24,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-lock_request_with_price_concession_lp/reg_ts06_tc02_02_request-post-lock-price-concession-window-will-popup-where-you--2416.spec.ts",
+      "testCase": "REG_TS06_TC02_02_Request Post Lock Price Concession (Window will popup where you can enter Fee Price and select Reason and amount will be applied) Check Fee and Reason are applied correctly Wait for LD to Lock or Deny Lock Request",
+      "testCaseId": 2416,
+      "steps": 29,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-lock_request_with_price_concession_lp/reg_ts06_tc04_01_b_concessions-will-be-applied-in-the-adjustments-check-if-appli-2116.spec.ts",
+      "testCase": "REG_TS06_TC04_01_B_Concessions will be applied in the Adjustments. Check if applied with correct amount. If LD approves lock, Below Events will be seen(ML)",
+      "testCaseId": 2116,
+      "steps": 16,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-lock_request_with_price_concession_lp/reg_ts06_tc04_01_a_concessions-will-be-applied-in-the-adjustments-check-if-appli-2102.spec.ts",
+      "testCase": "REG_TS06_TC04_01_A_Concessions will be applied in the Adjustments. Check if applied with correct amount. If LD approves lock, Below Events will be seen(ML)",
+      "testCaseId": 2102,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-ppe-check-private-pricing/tc-ppe-select-loan-type-743.spec.ts",
+      "testCase": "TC: PPE Select Loan Type",
+      "testCaseId": 743,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-ppe-historical-pricing/tc-ppe-historical-pricing-764.spec.ts",
+      "testCase": "TC: PPE Historical Pricing",
+      "testCaseId": 764,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-ppe-verify-adjustments/tc-ppe-verify-pricing-adjustments-760.spec.ts",
+      "testCase": "TC: PPE Verify Pricing Adjustments",
+      "testCaseId": 760,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-ppe-verify-mi-column/tc-ppe-verify-mi-column-763.spec.ts",
+      "testCase": "TC: PPE Verify Mi Column",
+      "testCaseId": 763,
+      "steps": 9,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc01_make-a-different-combinations-from---loan-purpose-loan-type-loan-o-1904.spec.ts",
+      "testCase": "REG_TS04_TC01_Make a different combinations from - loan purpose, loan type, loan options, occupancy etc and verify the pricing results",
+      "testCaseId": 1904,
+      "steps": 145,
+      "confidence": "high",
+      "warningCount": 14,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc02_ensure-cltv-calculates-correctly-loan-amt-2nd-loan-amt-property-va-1900.spec.ts",
+      "testCase": "REG_TS04_TC02_Ensure CLTV calculates correctly (loan amt + 2nd loan amt / property value (the minimun of property value and appraisal value)).",
+      "testCaseId": 1900,
+      "steps": 30,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc03_change-days-lock-eg-15304560-etc-and-verify-pricing-1908.spec.ts",
+      "testCase": "REG_TS04_TC03_Change days lock (eg. 15/30/45/60 etc)  and verify pricing",
+      "testCaseId": 1908,
+      "steps": 54,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc04_change-terms-and-verify-pricing-priced-for-all-terms-51015202530-y-1906.spec.ts",
+      "testCase": "REG_TS04_TC04_Change Terms and verify pricing (priced for all terms, 5+10+15+20+25+30 Years)",
+      "testCaseId": 1906,
+      "steps": 50,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc05_check-pricing-adjustments-if-it-is-triggering-the-right-adj-1919.spec.ts",
+      "testCase": "REG_TS04_TC05_Check pricing adjustments if it is triggering the right adj.",
+      "testCaseId": 1919,
+      "steps": 66,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc07_final-price-on-adj-modal-and-price-on-pricer-should-have-the-same--1922.spec.ts",
+      "testCase": "REG_TS04_TC07_Final Price on adj modal and Price on pricer should have the same value1",
+      "testCaseId": 1922,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc08_a_click-on-cost-to-borrower-line-result-verify-the-origination-cos-2195.spec.ts",
+      "testCase": "REG_TS04_TC08_A_Click on Cost to Borrower line result. Verify the origination cost - For Conventional, FHA, VA Loan Types",
+      "testCaseId": 2195,
+      "steps": 15,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc08_b_click-on-cost-to-borrower-line-result-verify-the-origination-cos-1995.spec.ts",
+      "testCase": "REG_TS04_TC08_B_Click on Cost to Borrower line result. Verify the origination cost - For Conventional, FHA, VA Loan Types",
+      "testCaseId": 1995,
+      "steps": 78,
+      "confidence": "high",
+      "warningCount": 8,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc09_if-ufmip-financed-yes-ufmip-fees-should-be-added-to-total-loan-amo-1931.spec.ts",
+      "testCase": "REG_TS04_TC09_If UFMIP Financed : Yes UFMIP Fees should be added to Total Loan Amount and verify cost to borrower if UFMIP Financed : No UFMIP Fees should  NOT be added to Total Loan Amount and verify cost to borrower",
+      "testCaseId": 1931,
+      "steps": 51,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc10_if-funding-fee-financed-yes-funding-fees-should-be-added-to-total--1938.spec.ts",
+      "testCase": "REG_TS04_TC10_if Funding Fee Financed : Yes Funding Fees should be added to Total Loan Amount and verify cost to borrower if Funding Fee Financed : No Funding Fees should  NOT be added to Total Loan Amount and verify cost to borrower",
+      "testCaseId": 1938,
+      "steps": 56,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc12_verify-if-mi-fee-is-getting-triggered-in-pricer-window-when-ltv-80-1941.spec.ts",
+      "testCase": "REG_TS04_TC12_Verify if MI fee is getting triggered in pricer window when ltv > 80% (Conventional Loan) an Compensation Type is BorrowerPaid",
+      "testCaseId": 1941,
+      "steps": 58,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc13_cost-to-borrower-should-have-ufmipfunding-feesguaranteed-fees-fha--1953.spec.ts",
+      "testCase": "REG_TS04_TC13_Cost to Borrower should have UFMIP/Funding fees/Guaranteed Fees (FHA, VA and USDA",
+      "testCaseId": 1953,
+      "steps": 70,
+      "confidence": "high",
+      "warningCount": 5,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc14_01_under-impersonation-select-any-user-lo-ld-you-want-to-impersona-1959.spec.ts",
+      "testCase": "REG_TS04_TC14_01_Under impersonation select any user (LO / LD) you want to impersonate and check the pricing",
+      "testCaseId": 1959,
+      "steps": 44,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc14_02_under-impersonation-select-any-user-lo-ld-you-want-to-impersona-2349.spec.ts",
+      "testCase": "REG_TS04_TC14_02_Under impersonation select any user (LO / LD) you want to impersonate and check the pricing",
+      "testCaseId": 2349,
+      "steps": 8,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-pricing_loan_lp/reg_ts04_tc15_make-changes-to-zip-codes-and-see-if-it-picks-correct-city-and-sta-1956.spec.ts",
+      "testCase": "REG_TS04_TC15_Make changes to Zip Codes and see if it picks correct city and state under Property Details",
+      "testCaseId": 1956,
+      "steps": 42,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-reducer-api/tc-reducer-api-106.spec.ts",
+      "testCase": "TC: Reducer API",
+      "testCaseId": 106,
+      "steps": 14,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-relock---adding-expired-loans-override/tc-relock---adding-expired-loans-override-439.spec.ts",
+      "testCase": "TC: Relock - Adding Expired Loans (Override)",
+      "testCaseId": 439,
+      "steps": 78,
+      "confidence": "medium",
+      "warningCount": 12,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/suite-relock---verification-of-expired-loans-override-standa/pre-cond-config---standard-ui-loan-pricer-393.spec.ts",
+      "testCase": "Pre-cond: Config - Standard UI [Loan Pricer]",
+      "testCaseId": 393,
+      "steps": 12,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-relock---verification-of-expired-loans-override-standa/tc-relock---verification-of-expired-loans-override-440.spec.ts",
+      "testCase": "TC: Relock - Verification of Expired Loans (Override)",
+      "testCaseId": 440,
+      "steps": 40,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-renegotiation_lp/reg_ts13_tc03_deny-with-out-expiration-date-2259.spec.ts",
+      "testCase": "REG_TS13_TC03_Deny with out expiration date",
+      "testCaseId": 2259,
+      "steps": 32,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-renegotiation_lp/reg_ts13_tc01_lock-without-expiration-date-and-comment-2254.spec.ts",
+      "testCase": "REG_TS13_TC01_Lock without Expiration date and comment",
+      "testCaseId": 2254,
+      "steps": 38,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-reprice-to-lock-the-relock/tc-verify-reprice-the-loan-as-lo-209.spec.ts",
+      "testCase": "TC: Verify Reprice the loan as  LO",
+      "testCaseId": 209,
+      "steps": 77,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-reprice-to-lock-the-relock/tc-verify-accept-reprice-the-loan-as-ld-206.spec.ts",
+      "testCase": "TC: Verify Accept Reprice the loan as  LD",
+      "testCaseId": 206,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-reprice-to-lock-the-relock/tc-verify-cancel-the-loan-as-ld-207.spec.ts",
+      "testCase": "TC: Verify Cancel the loan as  LD",
+      "testCaseId": 207,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-reprice-to-lock-the-relock/tc-verify-request-relock-the-loan-as-lo-208.spec.ts",
+      "testCase": "TC: Verify Request relock the loan as  LO",
+      "testCaseId": 208,
+      "steps": 74,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-reprice-to-lock-the-relock/tc-verify-lock-the-relock-loan-as-ld-210.spec.ts",
+      "testCase": "TC: Verify lock the relock loan as LD",
+      "testCaseId": 210,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-request-lock-after-deny-smoke/pre-cond-create-a-loan-api-251.spec.ts",
+      "testCase": "Pre-cond: Create a loan API",
+      "testCaseId": 251,
+      "steps": 14,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-request-lock-after-deny-smoke/tc-verify-deny-the-request-lock-as-ld-473.spec.ts",
+      "testCase": "TC: Verify Deny the Request lock as LD",
+      "testCaseId": 473,
+      "steps": 30,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-request_floating_concession_lp/reg_ts14_tc04_delete-2315.spec.ts",
+      "testCase": "REG_TS14_TC04_Delete",
+      "testCaseId": 2315,
+      "steps": 14,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-request_floating_concession_lp/reg_ts14_tc03_add-new-2308.spec.ts",
+      "testCase": "REG_TS14_TC03_Add new",
+      "testCaseId": 2308,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-request_floating_concession_lp/reg_ts14_tc02_cancel-2293.spec.ts",
+      "testCase": "REG_TS14_TC02_Cancel",
+      "testCaseId": 2293,
+      "steps": 21,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-request_lock_lp/reg_ts07_tc02_01_a_if-ld-deny-request-it-will-go-back-to-previous-events-2127.spec.ts",
+      "testCase": "REG_TS07_TC02_01_A_if LD Deny Request it will go back to previous Events",
+      "testCaseId": 2127,
+      "steps": 26,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-request_lock_lp/reg_ts07_tc02_01_b_if-ld-deny-request-it-will-go-back-to-previous-events-2130.spec.ts",
+      "testCase": "REG_TS07_TC02_01_B_if LD Deny Request it will go back to previous Events",
+      "testCaseId": 2130,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-standard-ui/pre-cond-config---custom-ui-disabledquick-pricer-352.spec.ts",
+      "testCase": "Pre-cond: Config - Custom UI Disabled[Quick Pricer]",
+      "testCaseId": 352,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-user_login_flow_encompass_lp/reg_ts01_tc03_loan-creation-using-encompass-for-loan-officer2-testsigma-1999.spec.ts",
+      "testCase": "REG_TS01_TC03_Loan Creation Using Encompass For Loan Officer2 TestSigma",
+      "testCaseId": 1999,
+      "steps": 61,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verification-of-locked-the-loan/tc-verify-lender-price-ext-loan-data-226.spec.ts",
+      "testCase": "TC: Verify Lender Price EXT Loan Data",
+      "testCaseId": 226,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-get-pricing/tc--smoke--verify-get-pricing-413.spec.ts",
+      "testCase": "TC- Smoke- Verify Get pricing",
+      "testCaseId": 413,
+      "steps": 100,
+      "confidence": "medium",
+      "warningCount": 8,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/suite-verify-lender-price-ext-loan-flow-generate-lock-confir/tc-verify-generate-lock-confirmation-documents-205.spec.ts",
+      "testCase": "TC: Verify Generate Lock Confirmation Documents",
+      "testCaseId": 205,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-lender-price-ext-locked-status/tc-verify-lender-price-ext-locked-status-228.spec.ts",
+      "testCase": "TC: Verify Lender Price EXT Locked Status",
+      "testCaseId": 228,
+      "steps": 5,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-pricing-results-load-on-quick-pricer-135.spec.ts",
+      "testCase": "TC: Verify pricing results load on quick pricer",
+      "testCaseId": 135,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-updating-scenario-triggers-pricing-update-change-any-field-188.spec.ts",
+      "testCase": "TC: Verify updating\nscenario triggers pricing update (change any field)",
+      "testCaseId": 188,
+      "steps": 18,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-updating-zip-code-triggers-pricing-update-and-updates-zip-under-proper-162.spec.ts",
+      "testCase": "TC: Verify updating zip code triggers pricing update and updates zip\nunder 'Property Details'",
+      "testCaseId": 162,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-fields-under-ami-information-populate-113.spec.ts",
+      "testCase": "TC: Verify fields under 'AMI Information' populate",
+      "testCaseId": 113,
+      "steps": 18,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-able-to-expand-rates-when-multiple-are-present-148.spec.ts",
+      "testCase": "TC: Verify able to expand rates when multiple are present",
+      "testCaseId": 148,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-pricing-adjustments-modal-opens-and-data-matches-pricer-154.spec.ts",
+      "testCase": "TC: Verify pricing adjustments modal opens and data matches pricer",
+      "testCaseId": 154,
+      "steps": 18,
+      "confidence": "high",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-loan-filters-ratepriceprogramlender-198.spec.ts",
+      "testCase": "TC: Verify loan filters\n(Rate/Price/Program/Lender)",
+      "testCaseId": 198,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-favorites-applying-favorite-changes-pricing-scenario-and-able-to-save--155.spec.ts",
+      "testCase": "TC: Verify favorites (applying favorite changes pricing scenario and able to save new scenario)",
+      "testCaseId": 155,
+      "steps": 54,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-impersonation-impersonating-user-will-see-results-assigned-to-that-use-180.spec.ts",
+      "testCase": "TC: Verify impersonation\n(impersonating user will see results assigned to that user)",
+      "testCaseId": 180,
+      "steps": 24,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-verify-historical-pricing--172.spec.ts",
+      "testCase": "TC: Verify historical pricing ",
+      "testCaseId": 172,
+      "steps": 20,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/suite-verify-pricing-on-quick-pricer/tc-generate-pricing-comparison-pdf-document-179.spec.ts",
+      "testCase": "TC: Generate Pricing Comparison\nPDF Document",
+      "testCaseId": 179,
+      "steps": 41,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/suite-verify-request-lock-as-ld/tc-verify-request-lock-as-ld-434.spec.ts",
+      "testCase": "TC: Verify Request Lock as LD",
+      "testCaseId": 434,
+      "steps": 89,
+      "confidence": "high",
+      "warningCount": 10,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/suite-verify-request-lock-as-lo/tc-verify-request-lock-as-lo-145.spec.ts",
+      "testCase": "TC: Verify Request Lock as LO",
+      "testCaseId": 145,
+      "steps": 103,
+      "confidence": "medium",
+      "warningCount": 8,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/unassigned/tc-get-queue-data-for-ld-190.spec.ts",
+      "testCase": "TC: Get Queue data for LD",
+      "testCaseId": 190,
+      "steps": 16,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/tc-verify-lender-price-ext-loan-flow-request-lock-as-lo-in-custom-ui-376.spec.ts",
+      "testCase": "TC: Verify Lender Price EXT Loan Flow:  Request Lock as LO In Custom UI",
+      "testCaseId": 376,
+      "steps": 49,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/394_8c246590ede64a6d88da1b695174f238_aftertest-399.spec.ts",
+      "testCase": "394_8c246590ede64a6d88da1b695174f238_aftertest",
+      "testCaseId": 399,
+      "steps": 0,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/390_4c8614e0be2a447fa47a6a1fc4525e16_aftertest-410.spec.ts",
+      "testCase": "390_4c8614e0be2a447fa47a6a1fc4525e16_aftertest",
+      "testCaseId": 410,
+      "steps": 4,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/145_cb78f0ea34c0488788973b863d7d13a6_aftertest-412.spec.ts",
+      "testCase": "145_cb78f0ea34c0488788973b863d7d13a6_aftertest",
+      "testCaseId": 412,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/413_ec081264f0ac4a20b0541c6557bd4b1b_aftertest-414.spec.ts",
+      "testCase": "413_ec081264f0ac4a20b0541c6557bd4b1b_aftertest",
+      "testCaseId": 414,
+      "steps": 5,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/161_e5466964a3564d9b8a5040caea9dcb5c_aftertest-415.spec.ts",
+      "testCase": "161_e5466964a3564d9b8a5040caea9dcb5c_aftertest",
+      "testCaseId": 415,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/164_f9c7ee88c5944e49b741c2a61554ae94_aftertest-416.spec.ts",
+      "testCase": "164_f9c7ee88c5944e49b741c2a61554ae94_aftertest",
+      "testCaseId": 416,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/209_2d2d1b53c5ad47aa8e5124da0348bdf7_aftertest-417.spec.ts",
+      "testCase": "209_2d2d1b53c5ad47aa8e5124da0348bdf7_aftertest",
+      "testCaseId": 417,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/208_d75d7f01c7b94dc2996cb270ad7c2612_aftertest-418.spec.ts",
+      "testCase": "208_d75d7f01c7b94dc2996cb270ad7c2612_aftertest",
+      "testCaseId": 418,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/157_ecb4b68f85944b8faf3ace0b5fb8f3dd_aftertest-421.spec.ts",
+      "testCase": "157_ecb4b68f85944b8faf3ace0b5fb8f3dd_aftertest",
+      "testCaseId": 421,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/163_2188883b9aa445d49ed9f3948f099a36_aftertest-422.spec.ts",
+      "testCase": "163_2188883b9aa445d49ed9f3948f099a36_aftertest",
+      "testCaseId": 422,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/206_8d218d937d5347dab3213f524de7e52d_aftertest-423.spec.ts",
+      "testCase": "206_8d218d937d5347dab3213f524de7e52d_aftertest",
+      "testCaseId": 423,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/207_30167a8094164139a5a8f209db2ef10f_aftertest-424.spec.ts",
+      "testCase": "207_30167a8094164139a5a8f209db2ef10f_aftertest",
+      "testCaseId": 424,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/210_95094b6a12c04d84ac17e35f626a8314_aftertest-425.spec.ts",
+      "testCase": "210_95094b6a12c04d84ac17e35f626a8314_aftertest",
+      "testCaseId": 425,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/195_e81cd1f7f20a4fd7ad2827dd89ac69cf_aftertest-426.spec.ts",
+      "testCase": "195_e81cd1f7f20a4fd7ad2827dd89ac69cf_aftertest",
+      "testCaseId": 426,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/429_a95c2a8eddb64772a326c31cb8157165_aftertest-430.spec.ts",
+      "testCase": "429_a95c2a8eddb64772a326c31cb8157165_aftertest",
+      "testCaseId": 430,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/434_2a289daa76bb45b6bcd95b3fa57be62b_aftertest-435.spec.ts",
+      "testCase": "434_2a289daa76bb45b6bcd95b3fa57be62b_aftertest",
+      "testCaseId": 435,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/437_0df5fae701e445b49ef96efccb9f2d58_aftertest-438.spec.ts",
+      "testCase": "437_0df5fae701e445b49ef96efccb9f2d58_aftertest",
+      "testCaseId": 438,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/tc-verify-request-lock-as-lo-smoke-469.spec.ts",
+      "testCase": "TC: Verify Request Lock as LO [Smoke]",
+      "testCaseId": 469,
+      "steps": 96,
+      "confidence": "medium",
+      "warningCount": 7,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/471_e7f6890c01ff441eaa862b0940a130ad_aftertest-472.spec.ts",
+      "testCase": "471_e7f6890c01ff441eaa862b0940a130ad_aftertest",
+      "testCaseId": 472,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/473_628e33c833764139baaf474f16a40f3c_aftertest-474.spec.ts",
+      "testCase": "473_628e33c833764139baaf474f16a40f3c_aftertest",
+      "testCaseId": 474,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/486_c858bea9224946d194e0f1b75a50fee7_aftertest-487.spec.ts",
+      "testCase": "486_c858bea9224946d194e0f1b75a50fee7_aftertest",
+      "testCaseId": 487,
+      "steps": 5,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/488_df77e70bb757418aa888d27be7d8f34b_aftertest-489.spec.ts",
+      "testCase": "488_df77e70bb757418aa888d27be7d8f34b_aftertest",
+      "testCaseId": 489,
+      "steps": 5,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/490_b6f99e84fafb429a9849ce123bc5b28b_aftertest-491.spec.ts",
+      "testCase": "490_b6f99e84fafb429a9849ce123bc5b28b_aftertest",
+      "testCaseId": 491,
+      "steps": 5,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/496_b3b0da608fa245e7845a0e4933c28111_aftertest-497.spec.ts",
+      "testCase": "496_b3b0da608fa245e7845a0e4933c28111_aftertest",
+      "testCaseId": 497,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/502_7885bd4864a848fdabd2340c1574bdd7_aftertest-503.spec.ts",
+      "testCase": "502_7885bd4864a848fdabd2340c1574bdd7_aftertest",
+      "testCaseId": 503,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/504_dfb066ceb4a64da2b5fe3a579c527a66_aftertest-505.spec.ts",
+      "testCase": "504_dfb066ceb4a64da2b5fe3a579c527a66_aftertest",
+      "testCaseId": 505,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/506_4802cb426efc42c79bdf4d72953d3f2b_aftertest-507.spec.ts",
+      "testCase": "506_4802cb426efc42c79bdf4d72953d3f2b_aftertest",
+      "testCaseId": 507,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/513_d12ab083e3314f55b913ae02f7b586c3_aftertest-514.spec.ts",
+      "testCase": "513_d12ab083e3314f55b913ae02f7b586c3_aftertest",
+      "testCaseId": 514,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/517_2fed043ddb8c4cfca5d1984ed283c24f_aftertest-518.spec.ts",
+      "testCase": "517_2fed043ddb8c4cfca5d1984ed283c24f_aftertest",
+      "testCaseId": 518,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/519_9197df08aef0474884df15cc9caae9eb_aftertest-520.spec.ts",
+      "testCase": "519_9197df08aef0474884df15cc9caae9eb_aftertest",
+      "testCaseId": 520,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/521_ef7e20537c134439bc2c8808e0897656_aftertest-522.spec.ts",
+      "testCase": "521_ef7e20537c134439bc2c8808e0897656_aftertest",
+      "testCaseId": 522,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/523_63ff071aa5724a738aeb30e06cca9ca7_aftertest-524.spec.ts",
+      "testCase": "523_63ff071aa5724a738aeb30e06cca9ca7_aftertest",
+      "testCaseId": 524,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/525_d15f6e6af8a241e7852771652c4d6dda_aftertest-526.spec.ts",
+      "testCase": "525_d15f6e6af8a241e7852771652c4d6dda_aftertest",
+      "testCaseId": 526,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/527_06d727e0889645c88250c926947cae1f_aftertest-528.spec.ts",
+      "testCase": "527_06d727e0889645c88250c926947cae1f_aftertest",
+      "testCaseId": 528,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/529_3034ab768ee74512b97593ef9b364be4_aftertest-530.spec.ts",
+      "testCase": "529_3034ab768ee74512b97593ef9b364be4_aftertest",
+      "testCaseId": 530,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/531_9ed9a19f248343d18e1134527b0febfc_aftertest-532.spec.ts",
+      "testCase": "531_9ed9a19f248343d18e1134527b0febfc_aftertest",
+      "testCaseId": 532,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/533_c69aef8d5c964049a7b9a0b5a4ce6081_aftertest-534.spec.ts",
+      "testCase": "533_c69aef8d5c964049a7b9a0b5a4ce6081_aftertest",
+      "testCaseId": 534,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/535_44cfb0d9d31345079961e7d64ae8cb15_aftertest-536.spec.ts",
+      "testCase": "535_44cfb0d9d31345079961e7d64ae8cb15_aftertest",
+      "testCaseId": 536,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/537_d82866ece59e4c4385aec60c38b5ca4b_aftertest-538.spec.ts",
+      "testCase": "537_d82866ece59e4c4385aec60c38b5ca4b_aftertest",
+      "testCaseId": 538,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/539_aaca54fad7cb4372817e2226d7b4c757_aftertest-540.spec.ts",
+      "testCase": "539_aaca54fad7cb4372817e2226d7b4c757_aftertest",
+      "testCaseId": 540,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/500_7e5efa7f01c74476bcfb0ed226b8971d_aftertest-541.spec.ts",
+      "testCase": "500_7e5efa7f01c74476bcfb0ed226b8971d_aftertest",
+      "testCaseId": 541,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/482_12c9dbda23aa4103b3c929b411b9032b_aftertest-543.spec.ts",
+      "testCase": "482_12c9dbda23aa4103b3c929b411b9032b_aftertest",
+      "testCaseId": 543,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/515_b1a2223b4e37490e97b67c1f4f53d587_aftertest-544.spec.ts",
+      "testCase": "515_b1a2223b4e37490e97b67c1f4f53d587_aftertest",
+      "testCaseId": 544,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/545_ebe2f4867d3349258cb92e921f64932a_aftertest-546.spec.ts",
+      "testCase": "545_ebe2f4867d3349258cb92e921f64932a_aftertest",
+      "testCaseId": 546,
+      "steps": 4,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/551_e04d6743c5f343128bd017a4990ff986_aftertest-552.spec.ts",
+      "testCase": "551_e04d6743c5f343128bd017a4990ff986_aftertest",
+      "testCaseId": 552,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/553_203a87c9d575465bb89e99a998324be7_aftertest-554.spec.ts",
+      "testCase": "553_203a87c9d575465bb89e99a998324be7_aftertest",
+      "testCaseId": 554,
+      "steps": 5,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/555_d1f39bd75cad4108b1b3910caf65e56c_aftertest-556.spec.ts",
+      "testCase": "555_d1f39bd75cad4108b1b3910caf65e56c_aftertest",
+      "testCaseId": 556,
+      "steps": 4,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/557_ce958c4c980549a1b0e988c96344fe99_aftertest-558.spec.ts",
+      "testCase": "557_ce958c4c980549a1b0e988c96344fe99_aftertest",
+      "testCaseId": 558,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/560_8e1ba23fdfdd464ea523f808b7f6d7f3_aftertest-561.spec.ts",
+      "testCase": "560_8e1ba23fdfdd464ea523f808b7f6d7f3_aftertest",
+      "testCaseId": 561,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/562_79f20437eed346e79749f16c531e7c1c_aftertest-563.spec.ts",
+      "testCase": "562_79f20437eed346e79749f16c531e7c1c_aftertest",
+      "testCaseId": 563,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/564_78ab11f9604e47b4af2966b3a18fc685_aftertest-565.spec.ts",
+      "testCase": "564_78ab11f9604e47b4af2966b3a18fc685_aftertest",
+      "testCaseId": 565,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/567_4db5ba8bea8642e39319fb32ab6c208f_aftertest-568.spec.ts",
+      "testCase": "567_4db5ba8bea8642e39319fb32ab6c208f_aftertest",
+      "testCaseId": 568,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/ext-beeline-vista-api-wrong-569.spec.ts",
+      "testCase": "EXT: Beeline-Vista API [Wrong]",
+      "testCaseId": 569,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-default-zip-code-and-city-is-displayed-once-you-launch-the-quick-pricer-572.spec.ts",
+      "testCase": "REG TC: Default Zip Code and City is displayed once you launch the Quick Pricer",
+      "testCaseId": 572,
+      "steps": 18,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/573_5a6cb4115db04a8287efac2b2ea35a1e_aftertest-574.spec.ts",
+      "testCase": "573_5a6cb4115db04a8287efac2b2ea35a1e_aftertest",
+      "testCaseId": 574,
+      "steps": 5,
+      "confidence": "low",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-favorites-feature-is-displayed----click-on-yellow-star-and-favorites-wind-577.spec.ts",
+      "testCase": "REG TC: Favorites Feature is displayed --> Click on Yellow Star and Favorites window will pop up ",
+      "testCaseId": 577,
+      "steps": 18,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/572_001a8c2adfc348518c1fb98385351a3a_aftertest-580.spec.ts",
+      "testCase": "572_001a8c2adfc348518c1fb98385351a3a_aftertest",
+      "testCaseId": 580,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/577_8a97a3b82a8042a5b9d9a46ed1e5709f_aftertest-582.spec.ts",
+      "testCase": "577_8a97a3b82a8042a5b9d9a46ed1e5709f_aftertest",
+      "testCaseId": 582,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-to-save-search-scenarios-to-favorites-click-on-name-field-enter-the-enter-583.spec.ts",
+      "testCase": "REG TC: To save search scenarios to favorites click on Name field enter the entered zip code in the search field and click on + sign",
+      "testCaseId": 583,
+      "steps": 5,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/583_c281872beef44ab0956567bbd16e5a26_aftertest-586.spec.ts",
+      "testCase": "583_c281872beef44ab0956567bbd16e5a26_aftertest",
+      "testCaseId": 586,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-default-favorite-seach-scenario----click-on-checkmark-under-default-and-i-587.spec.ts",
+      "testCase": "REG TC: Default Favorite Seach Scenario --> Click on checkmark under Default and it will be in green color",
+      "testCaseId": 587,
+      "steps": 28,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/590_6bbd5bd11a3a425980e0f073333dddfa_aftertest-591.spec.ts",
+      "testCase": "590_6bbd5bd11a3a425980e0f073333dddfa_aftertest",
+      "testCaseId": 591,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-pricing-comparison-pdf-generation----next-to-rate-click-on-edit-buttons-c-598.spec.ts",
+      "testCase": "REG TC: Pricing Comparison PDF generation --> Next to Rate click on Edit buttons (checkmark) and select more than one rate",
+      "testCaseId": 598,
+      "steps": 24,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/598_082bab93b7c14123843111e5301c5728_aftertest-600.spec.ts",
+      "testCase": "598_082bab93b7c14123843111e5301c5728_aftertest",
+      "testCaseId": 600,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-impersonate-feature--605.spec.ts",
+      "testCase": "REG TC: Impersonate Feature ",
+      "testCaseId": 605,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/608_12daa35b8e8b4dae93327e7c22a8b047_aftertest-609.spec.ts",
+      "testCase": "608_12daa35b8e8b4dae93327e7c22a8b047_aftertest",
+      "testCaseId": 609,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-result-settings-such-as-show-results-filter-hide-ineligible-resuts-tab-610.spec.ts",
+      "testCase": "REG TC: Result Settings such as Show Results Filter, Hide ineligible resuts tab",
+      "testCaseId": 610,
+      "steps": 58,
+      "confidence": "medium",
+      "warningCount": 12,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/611_8f1945cc737946dab762998f5fdd0d41_aftertest-612.spec.ts",
+      "testCase": "611_8f1945cc737946dab762998f5fdd0d41_aftertest",
+      "testCaseId": 612,
+      "steps": 5,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/605_188c961615fe4a9a9ed934656bc666af_aftertest-614.spec.ts",
+      "testCase": "605_188c961615fe4a9a9ed934656bc666af_aftertest",
+      "testCaseId": 614,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-search-fields-are-displayed-as-per-pricing-configuration-settings-for-qui-615.spec.ts",
+      "testCase": "REG TC: Search fields are displayed as per pricing configuration settings for Quick Pricer",
+      "testCaseId": 615,
+      "steps": 92,
+      "confidence": "medium",
+      "warningCount": 17,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-results-columns-appear-on-the-pricing-results-as-per-pricing-configuratio-618.spec.ts",
+      "testCase": "REG TC: Results Columns appear on the pricing results as per pricing configurations settings for Quick Pricer",
+      "testCaseId": 618,
+      "steps": 100,
+      "confidence": "medium",
+      "warningCount": 22,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/618_3deb8d4b18f048b7ad752ab72c12bb52_aftertest-619.spec.ts",
+      "testCase": "618_3deb8d4b18f048b7ad752ab72c12bb52_aftertest",
+      "testCaseId": 619,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/620_4bff4a6749a1486ab39b9d9e864bc157_aftertest-621.spec.ts",
+      "testCase": "620_4bff4a6749a1486ab39b9d9e864bc157_aftertest",
+      "testCaseId": 621,
+      "steps": 5,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/622_418908a03c054334b32e8417e77eafef_aftertest-623.spec.ts",
+      "testCase": "622_418908a03c054334b32e8417e77eafef_aftertest",
+      "testCaseId": 623,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-lock-request-with-price-concession-as-lo-624.spec.ts",
+      "testCase": "REG TC: Lock Request With Price Concession AS LO",
+      "testCaseId": 624,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/unassigned/624_cd7c54e93f0e48aa80cd1757024eb5c3_aftertest-625.spec.ts",
+      "testCase": "624_cd7c54e93f0e48aa80cd1757024eb5c3_aftertest",
+      "testCaseId": 625,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/628_06db12fd2c604a4e91ad6363339cbcf6_aftertest-629.spec.ts",
+      "testCase": "628_06db12fd2c604a4e91ad6363339cbcf6_aftertest",
+      "testCaseId": 629,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-re-pricing-with-concession-for-ext-loan-officer-630.spec.ts",
+      "testCase": "REG TC: Re-Pricing With Concession For EXT Loan Officer",
+      "testCaseId": 630,
+      "steps": 25,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-lock-request-for-ext-loan-officer-631.spec.ts",
+      "testCase": "REG TC: Lock Request For EXT Loan Officer",
+      "testCaseId": 631,
+      "steps": 20,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/631_bc05a09935ca4aff9cb8b79b7e467ff9_aftertest-632.spec.ts",
+      "testCase": "631_bc05a09935ca4aff9cb8b79b7e467ff9_aftertest",
+      "testCaseId": 632,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/634_da02464342504e2782ca57196663d330_aftertest-635.spec.ts",
+      "testCase": "634_da02464342504e2782ca57196663d330_aftertest",
+      "testCaseId": 635,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/446_31466aa0d98c41318e5ce368a35eaf0b_aftertest-637.spec.ts",
+      "testCase": "446_31466aa0d98c41318e5ce368a35eaf0b_aftertest",
+      "testCaseId": 637,
+      "steps": 1,
+      "confidence": "low",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/639_26bdf18fbfcc4518acb08eb2323b45b7_aftertest-640.spec.ts",
+      "testCase": "639_26bdf18fbfcc4518acb08eb2323b45b7_aftertest",
+      "testCaseId": 640,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/641_62e3a9a98b0740588f7a5feeac8c2f34_aftertest-642.spec.ts",
+      "testCase": "641_62e3a9a98b0740588f7a5feeac8c2f34_aftertest",
+      "testCaseId": 642,
+      "steps": 6,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-request-post-lock-price-concession-644.spec.ts",
+      "testCase": "REG TC: Request Post Lock Price Concession",
+      "testCaseId": 644,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-deny-post-lock-request-in-ld-649.spec.ts",
+      "testCase": "REG TC: Deny Post Lock Request In LD",
+      "testCaseId": 649,
+      "steps": 10,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-request-post-lock-price-concession-after-deny-in-ld-652.spec.ts",
+      "testCase": "REG TC:  Request Post Lock Price Concession After Deny In LD",
+      "testCaseId": 652,
+      "steps": 14,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/653_153940881e2b462e99f8ba913d637214_aftertest-654.spec.ts",
+      "testCase": "653_153940881e2b462e99f8ba913d637214_aftertest",
+      "testCaseId": 654,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-request-lock-for-ext-loan-officer-655.spec.ts",
+      "testCase": "REG TC: Request Lock For EXT Loan Officer",
+      "testCaseId": 655,
+      "steps": 28,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/unassigned/655_d048e29a0f1848bca860a49378d732e5_aftertest-656.spec.ts",
+      "testCase": "655_d048e29a0f1848bca860a49378d732e5_aftertest",
+      "testCaseId": 656,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-lock-post-lock-price-concession-in-ld-657.spec.ts",
+      "testCase": "REG TC: Lock [Post Lock Price Concession In LD]",
+      "testCaseId": 657,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/658_c6fc4659907f427eba174c9fc960c19b_aftertest-659.spec.ts",
+      "testCase": "658_c6fc4659907f427eba174c9fc960c19b_aftertest",
+      "testCaseId": 659,
+      "steps": 5,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-check-smos-from-product-finder-and-make-sure-youre-able-to-select-and-sav-661.spec.ts",
+      "testCase": "REG TC: Check SMOs from Product Finder and make sure you're able to select and save the SMOs",
+      "testCaseId": 661,
+      "steps": 35,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/662_e7c3c756e8174727adc779a08bb44cac_aftertest-663.spec.ts",
+      "testCase": "662_e7c3c756e8174727adc779a08bb44cac_aftertest",
+      "testCaseId": 663,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-events-and-expiration-date-with-request-lock-for-ext-loan-officer-665.spec.ts",
+      "testCase": "REG TC: Events and Expiration Date With Request Lock For EXT Loan Officer",
+      "testCaseId": 665,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/665_15bbd39088c941d69746f829c2bb94fc_aftertest-666.spec.ts",
+      "testCase": "665_15bbd39088c941d69746f829c2bb94fc_aftertest",
+      "testCaseId": 666,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/668_5a348f9c6d7f48e88aef4cf39b50af95_aftertest-669.spec.ts",
+      "testCase": "668_5a348f9c6d7f48e88aef4cf39b50af95_aftertest",
+      "testCaseId": 669,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/661_5d3f022b7e314fe6b7da6f63a0cb2152_aftertest-670.spec.ts",
+      "testCase": "661_5d3f022b7e314fe6b7da6f63a0cb2152_aftertest",
+      "testCaseId": 670,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/671_5924cad144584528b69592ab1f8f6d8a_aftertest-672.spec.ts",
+      "testCase": "671_5924cad144584528b69592ab1f8f6d8a_aftertest",
+      "testCaseId": 672,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-deny-request-lock-for-ext-loan-officer-673.spec.ts",
+      "testCase": "REG TC: Deny Request Lock For EXT Loan Officer",
+      "testCaseId": 673,
+      "steps": 14,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-ability-to-search-historical-pricing-674.spec.ts",
+      "testCase": "REG TC: Ability to search historical pricing",
+      "testCaseId": 674,
+      "steps": 20,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/674_17ae85b209864901af363fb0ec61e1ff_aftertest-675.spec.ts",
+      "testCase": "674_17ae85b209864901af363fb0ec61e1ff_aftertest",
+      "testCaseId": 675,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/677_1011056b689d46e9983fd70432283c19_aftertest-678.spec.ts",
+      "testCase": "677_1011056b689d46e9983fd70432283c19_aftertest",
+      "testCaseId": 678,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/679_c32fac86226544e6b84b18a19acaff07_aftertest-680.spec.ts",
+      "testCase": "679_c32fac86226544e6b84b18a19acaff07_aftertest",
+      "testCaseId": 680,
+      "steps": 6,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-ability-to-toggle-auto-search-onoff-681.spec.ts",
+      "testCase": "REG TC: Ability to toggle Auto Search On/Off",
+      "testCaseId": 681,
+      "steps": 30,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/681_c35a40c37f384b15ac870277fc43fcfc_aftertest-682.spec.ts",
+      "testCase": "681_c35a40c37f384b15ac870277fc43fcfc_aftertest",
+      "testCaseId": 682,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-mi-verification-684.spec.ts",
+      "testCase": "REG TC: MI Verification",
+      "testCaseId": 684,
+      "steps": 19,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-extensions-for-ext-loan-officer--687.spec.ts",
+      "testCase": "REG TC: Extensions For EXT Loan Officer ",
+      "testCaseId": 687,
+      "steps": 39,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/687_d1525150028648be9d659f109e7d5bf8_aftertest-688.spec.ts",
+      "testCase": "687_d1525150028648be9d659f109e7d5bf8_aftertest",
+      "testCaseId": 688,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/689_39ce08501e494f57941092f2d25537cb_aftertest-690.spec.ts",
+      "testCase": "689_39ce08501e494f57941092f2d25537cb_aftertest",
+      "testCaseId": 690,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/610_f7d2d2486f364eddab505ef543e1c9f7_aftertest-709.spec.ts",
+      "testCase": "610_f7d2d2486f364eddab505ef543e1c9f7_aftertest",
+      "testCaseId": 709,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/generic-test-to-record-an-element-716.spec.ts",
+      "testCase": "Generic Test to record an Element",
+      "testCaseId": 716,
+      "steps": 0,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/251_ee35d307ab094528bd53abf0eec96d7a_aftertest-726.spec.ts",
+      "testCase": "251_ee35d307ab094528bd53abf0eec96d7a_aftertest",
+      "testCaseId": 726,
+      "steps": 1,
+      "confidence": "low",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/untitled-4-727.spec.ts",
+      "testCase": "Untitled 4",
+      "testCaseId": 727,
+      "steps": 3,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/tc-ppe-login-test-732.spec.ts",
+      "testCase": "TC: PPE Login Test",
+      "testCaseId": 732,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-request-relock-the-loan-as-lo-ts-test-736.spec.ts",
+      "testCase": "Copy of (TC: Verify Request relock the loan as  LO) TS TEST",
+      "testCaseId": 736,
+      "steps": 73,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/736_6db6fc23920b472eb897bb55de63d8d4_aftertest-737.spec.ts",
+      "testCase": "736_6db6fc23920b472eb897bb55de63d8d4_aftertest",
+      "testCaseId": 737,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-reprice-the-loan-as-lo-744.spec.ts",
+      "testCase": "Copy of (TC: Verify Reprice the loan as  LO)",
+      "testCaseId": 744,
+      "steps": 67,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/744_ce699878b60a4957886263724d954248_aftertest-745.spec.ts",
+      "testCase": "744_ce699878b60a4957886263724d954248_aftertest",
+      "testCaseId": 745,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/746_d596cb9ab57c4f01b714953439e2fd11_aftertest-747.spec.ts",
+      "testCase": "746_d596cb9ab57c4f01b714953439e2fd11_aftertest",
+      "testCaseId": 747,
+      "steps": 1,
+      "confidence": "low",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-updating-zip-code-triggers-pricing-update-and-updates-zip-unde-748.spec.ts",
+      "testCase": "Copy of (TC: Verify updating zip code triggers pricing update and updates zip\nunder 'Property Details')",
+      "testCaseId": 748,
+      "steps": 25,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/matt-copy-of-tc-verify-updating-zip-code-triggers-pricing-update-and-updates-zip-749.spec.ts",
+      "testCase": "matt Copy of (TC: Verify updating zip code triggers pricing update and updates zipunder 'Property Details')",
+      "testCaseId": 749,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/750_c9d99d19b2bc411bac92dfc8a334956e_aftertest-751.spec.ts",
+      "testCase": "750_c9d99d19b2bc411bac92dfc8a334956e_aftertest",
+      "testCaseId": 751,
+      "steps": 1,
+      "confidence": "low",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-jet-mortage-flex-pricer-756.spec.ts",
+      "testCase": "Copy of (TC: Jet Mortage Flex Pricer)",
+      "testCaseId": 756,
+      "steps": 74,
+      "confidence": "medium",
+      "warningCount": 19,
+      "todoCount": 17
+    },
+    {
+      "file": "tests/ext-web/unassigned/756_d40d82bae5634c16bfdfdeba5e4d47d2_aftertest-757.spec.ts",
+      "testCase": "756_d40d82bae5634c16bfdfdeba5e4d47d2_aftertest",
+      "testCaseId": 757,
+      "steps": 1,
+      "confidence": "low",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-reprice-the-loan-as-lo-ts-team-rk-758.spec.ts",
+      "testCase": "Copy of (TC: Verify Reprice the loan as  LO) Ts team rk",
+      "testCaseId": 758,
+      "steps": 72,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 3
+    },
+    {
+      "file": "tests/ext-web/unassigned/758_e1c10dff91244a7081e30c1943420813_aftertest-759.spec.ts",
+      "testCase": "758_e1c10dff91244a7081e30c1943420813_aftertest",
+      "testCaseId": 759,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-request-relock-the-loan-as-lo-765.spec.ts",
+      "testCase": "Copy of (TC: Verify Request relock the loan as  LO)",
+      "testCaseId": 765,
+      "steps": 75,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/765_3b281f13036d4b54961a9d4b77ee2a4d_aftertest-766.spec.ts",
+      "testCase": "765_3b281f13036d4b54961a9d4b77ee2a4d_aftertest",
+      "testCaseId": 766,
+      "steps": 3,
+      "confidence": "low",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/1461_8d77e72b2e194f5ca8fdcd7012aa3ab5_aftertest-1462.spec.ts",
+      "testCase": "1461_8d77e72b2e194f5ca8fdcd7012aa3ab5_aftertest",
+      "testCaseId": 1462,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1463_811b902ca4e441e199a8ca2f0a4cbb56_aftertest-1464.spec.ts",
+      "testCase": "1463_811b902ca4e441e199a8ca2f0a4cbb56_aftertest",
+      "testCaseId": 1464,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1467_215b8bfb69744d3dae27535431ae6499_aftertest-1468.spec.ts",
+      "testCase": "1467_215b8bfb69744d3dae27535431ae6499_aftertest",
+      "testCaseId": 1468,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1477_a0feea66d303404c92279f2cba2e970e_aftertest-1478.spec.ts",
+      "testCase": "1477_a0feea66d303404c92279f2cba2e970e_aftertest",
+      "testCaseId": 1478,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1482_2f8ee99817b2414c920da6725adb7aea_aftertest-1483.spec.ts",
+      "testCase": "1482_2f8ee99817b2414c920da6725adb7aea_aftertest",
+      "testCaseId": 1483,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1484_7362ffcee8eb4ff8acc9119144c13588_aftertest-1485.spec.ts",
+      "testCase": "1484_7362ffcee8eb4ff8acc9119144c13588_aftertest",
+      "testCaseId": 1485,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1488_ab5bd9016fa642a396ecc56f9660d24e_aftertest-1489.spec.ts",
+      "testCase": "1488_ab5bd9016fa642a396ecc56f9660d24e_aftertest",
+      "testCaseId": 1489,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1491_38af2ec7041c493a96264448e8fd6a65_aftertest-1492.spec.ts",
+      "testCase": "1491_38af2ec7041c493a96264448e8fd6a65_aftertest",
+      "testCaseId": 1492,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1494_7fe4c1b5cf7a4def9c6782ec36bdb2c2_aftertest-1495.spec.ts",
+      "testCase": "1494_7fe4c1b5cf7a4def9c6782ec36bdb2c2_aftertest",
+      "testCaseId": 1495,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1496_588b87344e8e4059bf7adcff0d2a81a0_aftertest-1497.spec.ts",
+      "testCase": "1496_588b87344e8e4059bf7adcff0d2a81a0_aftertest",
+      "testCaseId": 1497,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1508_cd0d06f7a9aa4afeb15ca6d3f990f9ba_aftertest-1509.spec.ts",
+      "testCase": "1508_cd0d06f7a9aa4afeb15ca6d3f990f9ba_aftertest",
+      "testCaseId": 1509,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1511_dde8362a2fa046a096c6c8587f2df9db_aftertest-1512.spec.ts",
+      "testCase": "1511_dde8362a2fa046a096c6c8587f2df9db_aftertest",
+      "testCaseId": 1512,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1520_9dc87926736344e1894d04c0c521f94b_aftertest-1521.spec.ts",
+      "testCase": "1520_9dc87926736344e1894d04c0c521f94b_aftertest",
+      "testCaseId": 1521,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1534_faf4ed59dbc4485db927bc30e520c5d0_aftertest-1535.spec.ts",
+      "testCase": "1534_faf4ed59dbc4485db927bc30e520c5d0_aftertest",
+      "testCaseId": 1535,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1553_74a5e072cc004abfbc3cdd5ddc3c2a2c_aftertest-1554.spec.ts",
+      "testCase": "1553_74a5e072cc004abfbc3cdd5ddc3c2a2c_aftertest",
+      "testCaseId": 1554,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1562_36e70c57097444f0913a9a04df7b66b4_aftertest-1563.spec.ts",
+      "testCase": "1562_36e70c57097444f0913a9a04df7b66b4_aftertest",
+      "testCaseId": 1563,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/testing------------reg_ts01_tc07_02_results-columns-that-are-configured-in-the-p-1583.spec.ts",
+      "testCase": "Testing------------REG_TS01_TC07_02_Results Columns that are configured in the pricing configuration appear in the pricing results",
+      "testCaseId": 1583,
+      "steps": 27,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts01_tc27_02-1721.spec.ts",
+      "testCase": "REG_TS01_TC27_02",
+      "testCaseId": 1721,
+      "steps": 71,
+      "confidence": "medium",
+      "warningCount": 11,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts01_tc27_01-1731.spec.ts",
+      "testCase": "REG_TS01_TC27_01",
+      "testCaseId": 1731,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/abc_test-1866.spec.ts",
+      "testCase": "ABC_Test",
+      "testCaseId": 1866,
+      "steps": 8,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg_ts01_tc08_search-fields-are-displayed-as-per-pricing-configuration-s-1868.spec.ts",
+      "testCase": "Copy of (REG_TS01_TC08_Search fields are displayed as per pricing configuration settings for Quick Pricer)",
+      "testCaseId": 1868,
+      "steps": 100,
+      "confidence": "medium",
+      "warningCount": 21,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-request-relock-the-loan-as-lo-individual--1874.spec.ts",
+      "testCase": "Copy of (TC: Verify Request relock the loan as  LO [ Individual ])",
+      "testCaseId": 1874,
+      "steps": 66,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/1874_aacc0d2178084321ad407f335b5d98d2_aftertest-1875.spec.ts",
+      "testCase": "1874_aacc0d2178084321ad407f335b5d98d2_aftertest",
+      "testCaseId": 1875,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-updating-scenario-triggers-pricing-update-change-any-field-1876.spec.ts",
+      "testCase": "Copy of (TC: Verify updating\nscenario triggers pricing update (change any field))",
+      "testCaseId": 1876,
+      "steps": 18,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-pre-cond-config---standard-ui-loan-pricer-1877.spec.ts",
+      "testCase": "Copy of (Pre-cond: Config - Standard UI [Loan Pricer])",
+      "testCaseId": 1877,
+      "steps": 12,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-pre-cond-config---customui-1878.spec.ts",
+      "testCase": "Copy of (Pre-cond: Config - CustomUI)",
+      "testCaseId": 1878,
+      "steps": 13,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-accept-extension-lock-for-ext-loan-officer-1879.spec.ts",
+      "testCase": "Copy of (REG TC: Accept Extension Lock For EXT Loan Officer)",
+      "testCaseId": 1879,
+      "steps": 22,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1879_e046474b5208410d9bfd1ac93929b7d5_aftertest-1880.spec.ts",
+      "testCase": "1879_e046474b5208410d9bfd1ac93929b7d5_aftertest",
+      "testCaseId": 1880,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-accept-lock-request-with-price-concession-as-ld-1881.spec.ts",
+      "testCase": "Copy of (REG TC: Accept Lock Request with Price Concession as LD)",
+      "testCaseId": 1881,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1881_9573dacb331a47819842d08e984ea435_aftertest-1882.spec.ts",
+      "testCase": "1881_9573dacb331a47819842d08e984ea435_aftertest",
+      "testCaseId": 1882,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-rec-tc-events-and-expiration-date-for-concession--1883.spec.ts",
+      "testCase": "Copy of (REC TC: Events and Expiration Date For Concession )",
+      "testCaseId": 1883,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-lock-post-lock-price-concession-in-ld-1884.spec.ts",
+      "testCase": "Copy of (REG TC: Lock [Post Lock Price Concession In LD])",
+      "testCaseId": 1884,
+      "steps": 15,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-re-pricing-with-concession-for-ext-loan-officer-1885.spec.ts",
+      "testCase": "Copy of (REG TC: Re-Pricing With Concession For EXT Loan Officer)",
+      "testCaseId": 1885,
+      "steps": 25,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-concessions-for-ext-lock-desk-1886.spec.ts",
+      "testCase": "Copy of (REG TC: Concessions For EXT Lock Desk)",
+      "testCaseId": 1886,
+      "steps": 52,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-cancel-the-loan-as-ld-1887.spec.ts",
+      "testCase": "Copy of (TC: Verify Cancel the loan as  LD)",
+      "testCaseId": 1887,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/1887_1ab1f73169424447bcba082c3f88c18e_aftertest-1888.spec.ts",
+      "testCase": "1887_1ab1f73169424447bcba082c3f88c18e_aftertest",
+      "testCaseId": 1888,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-tc-verify-request-loan-concession-as-lo-individual--1889.spec.ts",
+      "testCase": "Copy of (TC: Verify Request Loan Concession as LO [ Individual ])",
+      "testCaseId": 1889,
+      "steps": 60,
+      "confidence": "high",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/1889_95976fa631ff44b886245e33050b9594_aftertest-1890.spec.ts",
+      "testCase": "1889_95976fa631ff44b886245e33050b9594_aftertest",
+      "testCaseId": 1890,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-copy-of-tc-verify-cancel-the-loan-as-ld-1891.spec.ts",
+      "testCase": "Copy of (Copy of (TC: Verify Cancel the loan as  LD))",
+      "testCaseId": 1891,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/1891_6a320622540e41e6835aec1d6e619de7_aftertest-1892.spec.ts",
+      "testCase": "1891_6a320622540e41e6835aec1d6e619de7_aftertest",
+      "testCaseId": 1892,
+      "steps": 5,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-days-lock--1893.spec.ts",
+      "testCase": "Copy of (REG TC: Days Lock )",
+      "testCaseId": 1893,
+      "steps": 22,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/1893_a8dded24f5494452a356841a4ee31215_aftertest-1894.spec.ts",
+      "testCase": "1893_a8dded24f5494452a356841a4ee31215_aftertest",
+      "testCaseId": 1894,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-copy-of-reg-tc-accept-lock-request-with-price-concession-as-ld-1895.spec.ts",
+      "testCase": "Copy of (Copy of (REG TC: Accept Lock Request with Price Concession as LD))",
+      "testCaseId": 1895,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/1895_7dcbfc591989435c9c11a62a56dc7787_aftertest-1896.spec.ts",
+      "testCase": "1895_7dcbfc591989435c9c11a62a56dc7787_aftertest",
+      "testCaseId": 1896,
+      "steps": 4,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg-tc-export-pricing-1897.spec.ts",
+      "testCase": "Copy of (REG TC: Export Pricing)",
+      "testCaseId": 1897,
+      "steps": 60,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/1897_48c0d46098dd407983b9885e37d68b51_aftertest-1898.spec.ts",
+      "testCase": "1897_48c0d46098dd407983b9885e37d68b51_aftertest",
+      "testCaseId": 1898,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts04_tc06_check-if-comp-plan-is-applied-in-pricing-adjustments-1920.spec.ts",
+      "testCase": "REG_TS04_TC06_Check If Comp Plan Is Applied in pricing Adjustments.",
+      "testCaseId": 1920,
+      "steps": 33,
+      "confidence": "medium",
+      "warningCount": 3,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts04_tc11_if-guarantee-fee-financed-yes-guarantee-fee-should-be-added-to-tot-1939.spec.ts",
+      "testCase": "REG_TS04_TC11_if Guarantee Fee Financed : Yes Guarantee Fee should be added to Total Loan Amount and verify cost to borrower if Guarantee Fee Financed : No Guarantee Fee should NOT be added to Total Loan Amount and verify cost to borrower",
+      "testCaseId": 1939,
+      "steps": 42,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts01_tc03_loan-creation-using-encompass-for-german-lo-1968.spec.ts",
+      "testCase": "REG_TS01_TC03_Loan Creation Using Encompass For German LO",
+      "testCaseId": 1968,
+      "steps": 39,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc01_01_comments-can-be-added-before-lock-request-with-price-concession-2012.spec.ts",
+      "testCase": "REG_TS06_TC01_01_Comments can be added before Lock Request with Price Concession ny LO(ML)",
+      "testCaseId": 2012,
+      "steps": 22,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc03_01_if-ld-deny-request-it-will-go-to-previous-events-2026.spec.ts",
+      "testCase": "REG_TS06_TC03_01_If LD Deny Request it will go to previous Events",
+      "testCaseId": 2026,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg-tc-concessions-for-ext-lock-desk-deepika-2036.spec.ts",
+      "testCase": "REG TC: Concessions For EXT Lock Desk-Deepika",
+      "testCaseId": 2036,
+      "steps": 52,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts01_tc03_loan-creation-using-encompass-for-officer-user-2064.spec.ts",
+      "testCase": "REG_TS01_TC03_Loan Creation Using Encompass For Officer User",
+      "testCaseId": 2064,
+      "steps": 60,
+      "confidence": "high",
+      "warningCount": 3,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/token-generation-and-store-firstname-loannumber-in-variable-using-api_1-2065.spec.ts",
+      "testCase": "Token generation and store firstName, loanNumber in variable using API_1",
+      "testCaseId": 2065,
+      "steps": 21,
+      "confidence": "medium",
+      "warningCount": 9,
+      "todoCount": 6
+    },
+    {
+      "file": "tests/ext-web/unassigned/token-generation-and-store-firstname-loannumber-in-variable-using-api_2-2067.spec.ts",
+      "testCase": "Token generation and store firstName, loanNumber in variable using API_2",
+      "testCaseId": 2067,
+      "steps": 27,
+      "confidence": "medium",
+      "warningCount": 12,
+      "todoCount": 7
+    },
+    {
+      "file": "tests/ext-web/unassigned/token-generation-and-store-firstname-loannumber-in-variable-using-api_3-2071.spec.ts",
+      "testCase": "Token generation and store firstName, loanNumber in variable using API_3",
+      "testCaseId": 2071,
+      "steps": 6,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/testing-step-groups-2074.spec.ts",
+      "testCase": "Testing Step groups",
+      "testCaseId": 2074,
+      "steps": 45,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/testing-fresh-loan-as-priced-and-locked-2075.spec.ts",
+      "testCase": "Testing fresh loan as priced and locked",
+      "testCaseId": 2075,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/token--fetching-data-from-response-body-based-on-api-status-2078.spec.ts",
+      "testCase": "Token--Fetching data from response body based on api status",
+      "testCaseId": 2078,
+      "steps": 19,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/pricing-comparison-pdf---send-pdf-button-2085.spec.ts",
+      "testCase": "Pricing Comparison PDF - Send PDF Button",
+      "testCaseId": 2085,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc01_02_comments-can-be-added-before-lock-request-with-price-concession-2093.spec.ts",
+      "testCase": "REG_TS06_TC01_02_Comments can be added before Lock Request with Price Concession ny LO(AL)",
+      "testCaseId": 2093,
+      "steps": 23,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc04_02_comments-can-be-added-before-lock-request-with-price-concession-2097.spec.ts",
+      "testCase": "REG_TS06_TC04_02_Comments can be added before Lock Request with Price Concession ny LO(AL)",
+      "testCaseId": 2097,
+      "steps": 19,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc05_02_check-the-expiration-datealtesting-2100.spec.ts",
+      "testCase": "REG_TS06_TC05_02_Check the Expiration Date(AL)Testing",
+      "testCaseId": 2100,
+      "steps": 19,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc05_01_check-the-expiration-date-testing-2111.spec.ts",
+      "testCase": "REG_TS06_TC05_01_Check the Expiration Date Testing",
+      "testCaseId": 2111,
+      "steps": 18,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts07_tc03_02_if-ld-approves-lock-below-events-will-be-seenal-2115.spec.ts",
+      "testCase": "REG_TS07_TC03_02_If LD approves lock, Below Events will be seen(AL)",
+      "testCaseId": 2115,
+      "steps": 55,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts07_tc01_ld-has-ability-to-lock-or-deny-extension-request-2121.spec.ts",
+      "testCase": "REG_TS07_TC01_LD has ability to Lock or Deny Extension Request",
+      "testCaseId": 2121,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts07_tc03_01_a_if-ld-lock-below-events-will-be-seen-1-reprice-2-extension-re-2134.spec.ts",
+      "testCase": "REG_TS07_TC03_01_A_If LD lock, Below Events will be seen 1. Reprice 2. Extension Request 3. Request Post-Lock Price Concession 4. Cancel Lock",
+      "testCaseId": 2134,
+      "steps": 35,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts07_tc03_01_b_if-ld-approves-lock-below-events-will-be-seenrepriceextension-2136.spec.ts",
+      "testCase": "REG_TS07_TC03_01_B_If LD approves lock, Below Events will be seen,Reprice,Extension Request,Request Post-Lock Price Concession",
+      "testCaseId": 2136,
+      "steps": 17,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg_ts01_tc21_01_select-different-lock-days-from-the-dropdown-and-check--2137.spec.ts",
+      "testCase": "Copy of (REG_TS01_TC21_01_Select different Lock Days from the dropdown and check the pricing results)",
+      "testCaseId": 2137,
+      "steps": 50,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg_ts01_tc21_02_select-different-lock-days-from-the-dropdown-and-check--2138.spec.ts",
+      "testCase": "Copy of (REG_TS01_TC21_02_Select different Lock Days from the dropdown and check the pricing results)",
+      "testCaseId": 2138,
+      "steps": 52,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/rest-2151.spec.ts",
+      "testCase": "rest",
+      "testCaseId": 2151,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc03_01_verify-add-adhoc-adjustments-lock-desk-is-able-to-addeditdelete-2159.spec.ts",
+      "testCase": "REG_TS16_TC03_01_Verify Add-Adhoc Adjustments Lock Desk is able to add/edit/delete Ad-hocs from pricing on both unlocked and locked loans",
+      "testCaseId": 2159,
+      "steps": 29,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc06_a_verify-the-validations-for-ad-adhoc-adjustments-2165.spec.ts",
+      "testCase": "REG_TS16_TC06_A_Verify the validations for Ad Adhoc Adjustments",
+      "testCaseId": 2165,
+      "steps": 84,
+      "confidence": "medium",
+      "warningCount": 16,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc04_verify-edit-adhoc-adjustments-2171.spec.ts",
+      "testCase": "REG_TS16_TC04_Verify Edit-Adhoc Adjustments",
+      "testCaseId": 2171,
+      "steps": 45,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc05_verify-delete--adhoc-adjustments-2172.spec.ts",
+      "testCase": "REG_TS16_TC05_Verify Delete -Adhoc Adjustments",
+      "testCaseId": 2172,
+      "steps": 39,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc06_b_verify-the-validations-for-ad-adhoc-adjustments-2174.spec.ts",
+      "testCase": "REG_TS16_TC06_B_Verify the validations for Ad Adhoc Adjustments",
+      "testCaseId": 2174,
+      "steps": 19,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/api-loan-creation-2183.spec.ts",
+      "testCase": "API Loan Creation",
+      "testCaseId": 2183,
+      "steps": 1,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts11_tc01_01_comments-can-be-added-before-approving-deny-by-ld-2212.spec.ts",
+      "testCase": "REG_TS11_TC01_01_Comments can be added before approving / Deny by LD",
+      "testCaseId": 2212,
+      "steps": 24,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts11_tc02_01_ld-has-an-ability-to-cancel-lock-when-click-on-cancel-lock-a-po-2214.spec.ts",
+      "testCase": "REG_TS11_TC02_01_LD has an ability to Cancel Lock.\nwhen click on Cancel Lock a popup will ask to Cancel or Confirm.If Confirm, it will Cancel Lock and will show you following Events:1. Relock (Higher-Off)2. Price\n3. Current Market Pricing Allowed",
+      "testCaseId": 2214,
+      "steps": 28,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/creating-a-new-loan-and-making-it-pricedauto-lock-policy-2232.spec.ts",
+      "testCase": "Creating a New Loan and Making it Priced(Auto lock Policy)",
+      "testCaseId": 2232,
+      "steps": 16,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts11_tc01_02_comments-can-be-added-before-approving-deny-by-ld-2236.spec.ts",
+      "testCase": "REG_TS11_TC01_02_Comments can be added before approving / Deny by LD",
+      "testCaseId": 2236,
+      "steps": 23,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts11_tc02_02_ld-has-an-ability-to-cancel-lock-when-click-on-cancel-lock-a-po-2240.spec.ts",
+      "testCase": "REG_TS11_TC02_02_LD has an ability to Cancel Lock.\nwhen click on Cancel Lock a popup will ask to Cancel or Confirm.If Confirm, it will Cancel Lock and will show you following Events:1. Relock (Higher-Off)2. Price\n3. Current Market Pricing Allowed",
+      "testCaseId": 2240,
+      "steps": 27,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc02_01_verify-add-adhoc-adjustments-lock-desk-is-able-to-add-ad-hocs-f-2243.spec.ts",
+      "testCase": "REG_TS16_TC02_01_Verify Add-Adhoc Adjustments  Lock Desk is able to add Ad-hocs from pricing on both unlocked and locked loans",
+      "testCaseId": 2243,
+      "steps": 21,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts13_tc02_lock-without-expiration-date-and-comment-2256.spec.ts",
+      "testCase": "REG_TS13_TC02_Lock without Expiration date and comment",
+      "testCaseId": 2256,
+      "steps": 42,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts13_tc04_deny-with-expiration-date-2260.spec.ts",
+      "testCase": "REG_TS13_TC04_Deny with expiration date",
+      "testCaseId": 2260,
+      "steps": 38,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts13_tc05_2nd-renegotiation-2287.spec.ts",
+      "testCase": "REG_TS13_TC05_2nd Renegotiation",
+      "testCaseId": 2287,
+      "steps": 59,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts14_tc01_01_request-floating-concession-with-comments-2289.spec.ts",
+      "testCase": "REG_TS14_TC01_01_Request Floating concession with comments",
+      "testCaseId": 2289,
+      "steps": 20,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg_ts01_tc27_01-2290.spec.ts",
+      "testCase": "Copy of (REG_TS01_TC27_01)",
+      "testCaseId": 2290,
+      "steps": 48,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg_ts01_tc27_02-2291.spec.ts",
+      "testCase": "Copy of (REG_TS01_TC27_02)",
+      "testCaseId": 2291,
+      "steps": 72,
+      "confidence": "medium",
+      "warningCount": 11,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts14_tc05_01_deny-floating-concession-2295.spec.ts",
+      "testCase": "REG_TS14_TC05_01_Deny Floating concession",
+      "testCaseId": 2295,
+      "steps": 22,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts14_tc01_02_request-floation-concession-with-comments-2299.spec.ts",
+      "testCase": "REG_TS14_TC01_02_Request Floation concession with comments",
+      "testCaseId": 2299,
+      "steps": 33,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts14_tc05_02_deny-floating-concession-2304.spec.ts",
+      "testCase": "REG_TS14_TC05_02_Deny Floating concession",
+      "testCaseId": 2304,
+      "steps": 27,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts14_tc06_01_request-and-apply-floating-concession-2312.spec.ts",
+      "testCase": "REG_TS14_TC06_01_Request and apply Floating Concession",
+      "testCaseId": 2312,
+      "steps": 20,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts14_tc06_02_request-and-apply-floating-concession-2320.spec.ts",
+      "testCase": "REG_TS14_TC06_02_Request and apply Floating Concession",
+      "testCaseId": 2320,
+      "steps": 36,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts12_tc01_02_relock-higher--off-and-comment-2328.spec.ts",
+      "testCase": "REG_TS12_TC01_02_Relock (Higher- Off)  and Comment",
+      "testCaseId": 2328,
+      "steps": 40,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts12_tc01_01_relock-higher--off-and-comment-2333.spec.ts",
+      "testCase": "REG_TS12_TC01_01_Relock (Higher- Off)  and Comment",
+      "testCaseId": 2333,
+      "steps": 56,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts12_tc05_deny-2340.spec.ts",
+      "testCase": "REG_TS12_TC05_Deny",
+      "testCaseId": 2340,
+      "steps": 38,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc01_01_extension-request-and-comment-2353.spec.ts",
+      "testCase": "REG_TS08_TC01_01_Extension Request and Comment",
+      "testCaseId": 2353,
+      "steps": 38,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc02_03-2355.spec.ts",
+      "testCase": "REG_TS08_TC02_03",
+      "testCaseId": 2355,
+      "steps": 52,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc01_05-2364.spec.ts",
+      "testCase": "REG_TS08_TC01_05",
+      "testCaseId": 2364,
+      "steps": 21,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc01_02_extension-request-and-comment-2367.spec.ts",
+      "testCase": "REG_TS08_TC01_02_Extension Request and Comment",
+      "testCaseId": 2367,
+      "steps": 38,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc02_01_ld-has-an-ability-to-deny-post-lock-request-2371.spec.ts",
+      "testCase": "REG_TS08_TC02_01_LD has an ability to Deny Post-Lock Request.",
+      "testCaseId": 2371,
+      "steps": 46,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc02_02_a_ld-has-an-ability-to-deny-post-lock-request-2372.spec.ts",
+      "testCase": "REG_TS08_TC02_02_A_LD has an ability to Deny Post-Lock Request.",
+      "testCaseId": 2372,
+      "steps": 5,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc02_02_b_ld-has-an-ability-to-deny-post-lock-request-2376.spec.ts",
+      "testCase": "REG_TS08_TC02_02_B_LD has an ability to Deny Post-Lock Request.",
+      "testCaseId": 2376,
+      "steps": 47,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc01_03_extension-request-and-comment-2380.spec.ts",
+      "testCase": "REG_TS08_TC01_03_Extension Request and Comment",
+      "testCaseId": 2380,
+      "steps": 50,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts08_tc01_04_extension-request-and-comment-2385.spec.ts",
+      "testCase": "REG_TS08_TC01_04_Extension Request and Comment",
+      "testCaseId": 2385,
+      "steps": 49,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc06_c_verify-the-validations-for-ad-adhoc-adjustments-2388.spec.ts",
+      "testCase": "REG_TS16_TC06_C_Verify the validations for Ad Adhoc Adjustments",
+      "testCaseId": 2388,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc01_ld-has-ability-to-deny-request-or-lock-2389.spec.ts",
+      "testCase": "REG_TS09_TC01_LD has ability to Deny Request or Lock.",
+      "testCaseId": 2389,
+      "steps": 75,
+      "confidence": "medium",
+      "warningCount": 4,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc02_ld-has-ability-to-deny-request-or-lock-2390.spec.ts",
+      "testCase": "REG_TS09_TC02_LD has ability to Deny Request or Lock.",
+      "testCaseId": 2390,
+      "steps": 46,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/copy-of-reg_ts04_tc11_if-guarantee-fee-financed-yes-guarantee-fee-should-be-adde-2392.spec.ts",
+      "testCase": "Copy of (REG_TS04_TC11_if Guarantee Fee Financed : Yes Guarantee Fee should be added to Total Loan Amount and verify cost to borrower if Guarantee Fee Financed : No Guarantee Fee should NOT be added to Total Loan Amount and verify cost to borrower)",
+      "testCaseId": 2392,
+      "steps": 45,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc03_-2405.spec.ts",
+      "testCase": "REG_TS09_TC03_",
+      "testCaseId": 2405,
+      "steps": 55,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/demo-2414.spec.ts",
+      "testCase": "Demo",
+      "testCaseId": 2414,
+      "steps": 2,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc04-2421.spec.ts",
+      "testCase": "REG_TS09_TC04",
+      "testCaseId": 2421,
+      "steps": 36,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 2
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc05-2422.spec.ts",
+      "testCase": "REG_TS09_TC05",
+      "testCaseId": 2422,
+      "steps": 66,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc06-2427.spec.ts",
+      "testCase": "REG_TS09_TC06",
+      "testCaseId": 2427,
+      "steps": 66,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc03_02_verify-add-adhoc-adjustments-lock-desk-is-able-to-addeditdelete-2430.spec.ts",
+      "testCase": "REG_TS16_TC03_02_Verify Add-Adhoc Adjustments Lock Desk is able to add/edit/delete Ad-hocs from pricing on both unlocked and locked loans",
+      "testCaseId": 2430,
+      "steps": 29,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts06_tc03_02_if-ld-deny-request-it-will-go-to-previous-events-2435.spec.ts",
+      "testCase": "REG_TS06_TC03_02_If LD Deny Request it will go to previous Events",
+      "testCaseId": 2435,
+      "steps": 22,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts09_tc04_prerequisite-2444.spec.ts",
+      "testCase": "REG_TS09_TC04_Prerequisite",
+      "testCaseId": 2444,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc01_02_verify-add-adhoc-adjustments-lock-desk-is-able-to-addeditdelete-2450.spec.ts",
+      "testCase": "REG_TS16_TC01_02_Verify Add-Adhoc Adjustments Lock Desk is able to add/edit/delete Ad-hocs from pricing on both unlocked and locked loans",
+      "testCaseId": 2450,
+      "steps": 46,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/ts--copy-of-reg_ts09_tc04_prerequisite-2454.spec.ts",
+      "testCase": "TS--Copy of (REG_TS09_TC04_Prerequisite)",
+      "testCaseId": 2454,
+      "steps": 11,
+      "confidence": "high",
+      "warningCount": 0,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc01_03_verify--2462.spec.ts",
+      "testCase": "REG_TS16_TC01_03_Verify ",
+      "testCaseId": 2462,
+      "steps": 51,
+      "confidence": "medium",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc07_01-2477.spec.ts",
+      "testCase": "REG_TS16_TC07_01",
+      "testCaseId": 2477,
+      "steps": 17,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc02_02-2481.spec.ts",
+      "testCase": "REG_TS16_TC02_02",
+      "testCaseId": 2481,
+      "steps": 17,
+      "confidence": "high",
+      "warningCount": 1,
+      "todoCount": 1
+    },
+    {
+      "file": "tests/ext-web/unassigned/testing-for-testplan_reg_ts01_tc21_02_select-different-lock-days-from-the-dropdo-2482.spec.ts",
+      "testCase": "Testing for Testplan_REG_TS01_TC21_02_Select different Lock Days from the dropdown and check the pricing results)",
+      "testCaseId": 2482,
+      "steps": 56,
+      "confidence": "medium",
+      "warningCount": 5,
+      "todoCount": 0
+    },
+    {
+      "file": "tests/ext-web/unassigned/reg_ts16_tc07_02-2493.spec.ts",
+      "testCase": "REG_TS16_TC07_02",
+      "testCaseId": 2493,
+      "steps": 26,
+      "confidence": "medium",
+      "warningCount": 2,
+      "todoCount": 1
+    }
+  ],
+  "topWarnings": [
+    {
+      "testCaseId": 573,
+      "testCase": "REG TC: Verify Loan Type, Loan purpose, Occupancy etc",
+      "warnings": [
+        "While loop - ensure exit condition prevents infinite loop",
+        "Step has no templateId: Unknown step",
+        "Function call - verify implementation"
+      ]
+    },
+    {
+      "testCaseId": 500,
+      "testCase": "REG TC: Subordinate Loan (2nd loan) Pricing",
+      "warnings": [
+        "Step has no templateId: Unknown step"
+      ]
+    },
+    {
+      "testCaseId": 482,
+      "testCase": "REG TC: Days Lock ",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    },
+    {
+      "testCaseId": 496,
+      "testCase": "REG TC: Terms ",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    },
+    {
+      "testCaseId": 515,
+      "testCase": "REG TC: Verify Pricing Adjustments",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name - defaulting to title",
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    },
+    {
+      "testCaseId": 502,
+      "testCase": "REG TC: Verify Comp Plan",
+      "warnings": [
+        "Step has no templateId: Unknown step"
+      ]
+    },
+    {
+      "testCaseId": 504,
+      "testCase": "REG TC: Verify Price (Points)",
+      "warnings": [
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name matches",
+        "Step has no templateId: Unknown step",
+        "Step has no templateId: Unknown step",
+        "Verify attribute name - defaulting to title"
+      ]
+    },
+    {
+      "testCaseId": 545,
+      "testCase": "REG TC: Verify Closing Cost",
+      "warnings": [
+        "Step has no templateId: Unknown step"
+      ]
+    },
+    {
+      "testCaseId": 506,
+      "testCase": "REG TC: FHA Loans",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name matches",
+        "Verify attribute name matches"
+      ]
+    },
+    {
+      "testCaseId": 523,
+      "testCase": "REG TC: VA Loans",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "Verify attribute name - defaulting to title",
+        "Attribute check - verify attribute name",
+        "Verify attribute name matches",
+        "Verify attribute name matches"
+      ]
+    },
+    {
+      "testCaseId": 539,
+      "testCase": "REG TC: USDA Loans",
+      "warnings": [
+        "Attribute check - verify attribute name",
+        "Verify attribute name matches",
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name matches",
+        "Attribute check - verify attribute name"
+      ]
+    },
+    {
+      "testCaseId": 553,
+      "testCase": "REG TC: Verify Fee",
+      "warnings": [
+        "Step has no templateId: Unknown step"
+      ]
+    },
+    {
+      "testCaseId": 555,
+      "testCase": "REG TC: Impersonation",
+      "warnings": [
+        "Verify attribute name matches",
+        "Verify attribute name matches",
+        "Step has no templateId: Unknown step"
+      ]
+    },
+    {
+      "testCaseId": 564,
+      "testCase": "REG TC: Zip Code",
+      "warnings": [
+        "Data loop over \"ZipCode And Cities\" - verify index bounds",
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name matches",
+        "Verify attribute name matches",
+        "Verify attribute name matches"
+      ]
+    },
+    {
+      "testCaseId": 567,
+      "testCase": "REG TC: AUS",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "Step has no templateId: Unknown step",
+        "Step has no templateId: Unknown step",
+        "Step has no templateId: Unknown step",
+        "Step has no templateId: Unknown step"
+      ]
+    },
+    {
+      "testCaseId": 519,
+      "testCase": "TC: Verify Request Lock as LO [ Individual ]",
+      "warnings": [
+        "While loop - ensure exit condition prevents infinite loop",
+        "While loop - ensure exit condition prevents infinite loop",
+        "Verify attribute name matches",
+        "Verify attribute name matches",
+        "Verify attribute name matches"
+      ]
+    },
+    {
+      "testCaseId": 517,
+      "testCase": "TC: Verify Lock the loan as LD [ Individual ]",
+      "warnings": [
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    },
+    {
+      "testCaseId": 513,
+      "testCase": "TC: Verify Loan Extension as LO [ Individual ]",
+      "warnings": [
+        "Step has no templateId: Unknown step",
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    },
+    {
+      "testCaseId": 521,
+      "testCase": "TC: Verify Accept Loan Extension as LD [ Individual ]",
+      "warnings": [
+        "Verify attribute name - defaulting to title",
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    },
+    {
+      "testCaseId": 525,
+      "testCase": "TC: Verify Request Loan Concession as LO [ Individual ]",
+      "warnings": [
+        "Verify attribute name - defaulting to title",
+        "Verify attribute name matches",
+        "Verify attribute name - defaulting to title",
+        "While loop - ensure exit condition prevents infinite loop"
+      ]
+    }
+  ]
+}

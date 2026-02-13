@@ -1,0 +1,23 @@
+import { test, expect } from '@playwright/test';
+import path from 'path';
+import * as stepGroups from '../../../../src/helpers/step-groups';
+
+test.describe('Unassigned', () => {
+  let vars: Record<string, string> = {};
+
+  test.beforeEach(async () => {
+    vars = {};
+  });
+
+  test('ABC_Test', async ({ page }) => {
+    await stepGroups.stepGroup_Login_To_EXT_Application(page, vars);
+    if (true) /* Element Error POPUP is visible */ {
+      await page.locator("//div[@class=\"modal-footer\"]//button/span//span[text()=\"ok\"]").click();
+    }
+    await page.locator("//a[@aria-label=\"Config\"]//span").click();
+    await page.locator("//a[text()[normalize-space() = \"Quick Pricer Configuration\"]]").click();
+    await page.getByText("Default Configuration").waitFor({ state: 'visible' });
+    await expect(page.getByText("Default Configuration\r")).toBeVisible();
+    await page.locator("//label[contains(@for,'pricer-optionsQuickPricer')]").filter({ hasText: "Pricer Options" }).click();
+  });
+});
